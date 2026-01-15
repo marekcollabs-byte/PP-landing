@@ -406,8 +406,61 @@ details p{
   .grid--4{ grid-template-columns: repeat(2, 1fr); }
   .grid--3{ grid-template-columns: repeat(2, 1fr); }
   .split{ grid-template-columns: 1fr; }
-}
 @media (max-width: 560px){
+  /* horní navigace */
   .nav .nav__link{ display:none; }
+
+  /* gridy vždy na jeden sloupec */
   .grid--4, .grid--3{ grid-template-columns: 1fr; }
+
+  /* velká tlačítka pro palec */
+  .btn{
+    width: 100%;
+    min-height: 52px;
+    padding: 14px 16px;
+    font-size: 16px;
+    border-radius: 16px;
+  }
+
+  /* CTA vždy pod sebe */
+  .ctaRow{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  /* zklidnění badge */
+  .badges{
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .badge{
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  /* HERO zjednodušení */
+  .hero__grid{
+    grid-template-columns: 1fr;
+  }
+
+  .sideCard{
+    display: none;
+  }
+
+  /* typografie pro mobil */
+  .h1{
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
+  .h1 span{
+    font-size: 16px;
+  }
+
+  .lead{
+    font-size: 15px;
+  }
 }
+
+
