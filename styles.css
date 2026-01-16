@@ -475,6 +475,29 @@ details p{
     font-size: 15px;
   }
 }
+/* Header při scrollu */
+.header.scrolled{
+  box-shadow: 0 8px 30px rgba(2,6,23,.10);
+}
+
+.header.scrolled .header__inner{
+  padding: 8px 0;
+}
+
+.header.scrolled .logo{
+  width: 36px;
+  height: 36px;
+  font-size: 14px;
+}
+
+.header.scrolled .brand__title{
+  font-size: 13px;
+}
+
+.header.scrolled .brand__sub{
+  display: none;
+}
+
 
 
 
