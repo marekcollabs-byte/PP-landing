@@ -497,71 +497,30 @@ details p{
 .header.scrolled .brand__sub{
   display: none;
 }
-/* Mobile sticky CTA */
-.mobileCta{
-  display:none;
-}
+  // 5) Mobile sticky CTA (zobraz po scrollu, schovej u konce stránky)
+  const mobileCta = document.getElementById("mobileCta");
 
-@media (max-width: 560px){
-  .mobileCta{
-    display:block;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 60;
-    padding: 10px 12px;
-    background: rgba(255,255,255,.88);
-    backdrop-filter: blur(10px);
-    border-top: 1px solid rgba(15,23,42,.10);
-    transform: translateY(110%);
-    transition: transform .18s ease;
+  function handleMobileCta(){
+    if (!mobileCta) return;
+
+    const isMobile = window.innerWidth <= 560;
+    const afterScroll = window.scrollY > 420;
+
+    // když jsi skoro dole (u ceny/footeru), sticky schovej, aby nebyla duplicita
+    const nearBottom =
+      (window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 220);
+
+    if (isMobile && afterScroll && !nearBottom){
+      mobileCta.classList.add("show");
+    } else {
+      mobileCta.classList.remove("show");
+    }
   }
 
-  .mobileCta.show{
-    transform: translateY(0);
-  }
+  window.addEventListener("scroll", handleMobileCta);
+  window.addEventListener("resize", handleMobileCta);
+  handleMobileCta();
 
-  .mobileCta__inner{
-    width: min(1100px, calc(100% - 0px));
-    margin: 0 auto;
-    display:flex;
-    gap: 10px;
-    align-items:center;
-  }
-
-  .mobileCta__price{
-    flex: 0 0 auto;
-    padding: 10px 12px;
-    border-radius: 16px;
-    border: 1px solid rgba(15,23,42,.10);
-    background: rgba(255,255,255,.92);
-    line-height: 1.05;
-  }
-
-  .mobileCta__label{
-    font-size: 11px;
-    color: var(--muted2);
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: .04em;
-  }
-
-  .mobileCta__value{
-    margin-top: 4px;
-    font-size: 16px;
-    font-weight: 900;
-  }
-
-  .mobileCta__btn{
-    flex: 1 1 auto;
-  }
-
-  /* aby sticky lišta nepřekryla obsah dole */
-  body{
-    padding-bottom: 84px;
-  }
-}
 
 
 
