@@ -130,7 +130,6 @@ li{ margin: 6px 0; }
 .btn--primary:active{
   color: #ffffff;
 }
-}
 .btn--primary:hover{ filter: brightness(1.03); }
 
 .btn--ghost{
@@ -418,8 +417,9 @@ details p{
   .grid--4{ grid-template-columns: repeat(2, 1fr); }
   .grid--3{ grid-template-columns: repeat(2, 1fr); }
   .split{ grid-template-columns: 1fr; }
+}
+
 @media (max-width: 560px){
-   }
   /* horní navigace */
   .nav .nav__link{ display:none; }
 
@@ -474,30 +474,9 @@ details p{
   .lead{
     font-size: 15px;
   }
-}
-/* Header při scrollu */
-.header.scrolled{
-  box-shadow: 0 8px 30px rgba(2,6,23,.10);
-}
 
-.header.scrolled .header__inner{
-  padding: 8px 0;
-}
-
-.header.scrolled .logo{
-  width: 36px;
-  height: 36px;
-  font-size: 14px;
-}
-
-.header.scrolled .brand__title{
-  font-size: 13px;
-}
-
-.header.scrolled .brand__sub{
-  display: none;
-}
  
+
 
 
 
