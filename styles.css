@@ -497,29 +497,8 @@ details p{
 .header.scrolled .brand__sub{
   display: none;
 }
-  // 5) Mobile sticky CTA (zobraz po scrollu, schovej u konce stránky)
-  const mobileCta = document.getElementById("mobileCta");
+ 
 
-  function handleMobileCta(){
-    if (!mobileCta) return;
-
-    const isMobile = window.innerWidth <= 560;
-    const afterScroll = window.scrollY > 420;
-
-    // když jsi skoro dole (u ceny/footeru), sticky schovej, aby nebyla duplicita
-    const nearBottom =
-      (window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 220);
-
-    if (isMobile && afterScroll && !nearBottom){
-      mobileCta.classList.add("show");
-    } else {
-      mobileCta.classList.remove("show");
-    }
-  }
-
-  window.addEventListener("scroll", handleMobileCta);
-  window.addEventListener("resize", handleMobileCta);
-  handleMobileCta();
 
 
 
