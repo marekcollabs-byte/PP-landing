@@ -318,6 +318,39 @@
         </div>
       </div>
     </section>
+<!-- OBJEDNÁVKA (SimpleShop formulář) -->
+<section class="section soft" id="objednavka">
+  <div class="container">
+    <div class="sectionHead">
+      <span class="kicker">Objednávka</span>
+      <h2 class="h2">Objednat e-book</h2>
+      <p class="sub">Vyplňte údaje a dokončete platbu.</p>
+    </div>
+
+    <div class="card cardPad">
+      <!-- SimpleShop embed -->
+      <div data-SimpleShopForm="GXkL5">
+        <div>Prodejní formulář je vytvořen v systému
+          <a href="https://www.simpleshop.cz/?utm_source=simpleshop&utm_medium=form&utm_campaign=76059" target="_blank" rel="noopener">SimpleShop.cz</a>.
+        </div>
+      </div>
+      <script>
+        (function(i, s, o, g, r, a, m){
+          i[r] = i[r] || function(){
+            (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+        })(window, document, "script", "https://form.simpleshop.cz/prj/js/SimpleShopService.js", "sss");
+        sss("createForm", "GXkL5");
+      </script>
+      <!-- /SimpleShop embed -->
+    </div>
+  </div>
+</section>
 
     <footer class="footer">
       © <span id="year"></span> Bc. Marek Luskač • prvnipomoc.eu
@@ -354,6 +387,7 @@
 </script>
 </body>
 </html>
+
 
 
 
