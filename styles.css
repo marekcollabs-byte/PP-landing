@@ -94,6 +94,12 @@ li{ margin: 6px 0; }
   padding: 8px 10px;
   border-radius: 12px;
 }
+.nav .btn--primary,
+.nav .btn--primary:visited,
+.nav .btn--primary:hover,
+.nav .btn--primary:active{
+  color: #ffffff;
+}
 .nav a:hover{ background: rgba(15,23,42,.04); }
 
 .btn{
@@ -469,6 +475,7 @@ details p{
     font-size: 15px;
   }
 }
+
 
 
 
