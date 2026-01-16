@@ -71,6 +71,12 @@ li{ margin: 6px 0; }
   border-bottom: 1px solid var(--border);
 }
 
+/* Dark: header nesmí být bílý */
+body.theme-dark .header{
+  background: rgba(11,18,32,.75);
+}
+
+
 .header__inner{
   display:flex;
   align-items:center;
@@ -496,6 +502,7 @@ details p{
   }
 
  
+
 
 
 
