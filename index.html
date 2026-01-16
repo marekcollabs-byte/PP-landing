@@ -357,20 +357,6 @@
     </footer>
   </main>
 
-  <script>
-  // 1) Sem později dosadíš link na SimpleShop checkout
-  const CHECKOUT_URL = "#"; 
-  // napr.: "https://neco.simpleshop.cz/..."
-
-  // 2) Všechna tlačítka s data-checkout přesměrujeme na checkout
-  document.querySelectorAll("[data-checkout]").forEach(btn => {
-    btn.addEventListener("click", (e) => {
-      if (CHECKOUT_URL === "#") return; // zatím nic, dokud nedosadíš link
-      e.preventDefault();
-      window.location.href = CHECKOUT_URL;
-    });
-  });
-
   // 3) Automatický rok ve footeru
   document.getElementById("year").textContent = new Date().getFullYear();
 
@@ -387,6 +373,7 @@
 </script>
 </body>
 </html>
+
 
 
 
