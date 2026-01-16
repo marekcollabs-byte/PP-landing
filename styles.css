@@ -497,6 +497,72 @@ details p{
 .header.scrolled .brand__sub{
   display: none;
 }
+/* Mobile sticky CTA */
+.mobileCta{
+  display:none;
+}
+
+@media (max-width: 560px){
+  .mobileCta{
+    display:block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 60;
+    padding: 10px 12px;
+    background: rgba(255,255,255,.88);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(15,23,42,.10);
+    transform: translateY(110%);
+    transition: transform .18s ease;
+  }
+
+  .mobileCta.show{
+    transform: translateY(0);
+  }
+
+  .mobileCta__inner{
+    width: min(1100px, calc(100% - 0px));
+    margin: 0 auto;
+    display:flex;
+    gap: 10px;
+    align-items:center;
+  }
+
+  .mobileCta__price{
+    flex: 0 0 auto;
+    padding: 10px 12px;
+    border-radius: 16px;
+    border: 1px solid rgba(15,23,42,.10);
+    background: rgba(255,255,255,.92);
+    line-height: 1.05;
+  }
+
+  .mobileCta__label{
+    font-size: 11px;
+    color: var(--muted2);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+
+  .mobileCta__value{
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 900;
+  }
+
+  .mobileCta__btn{
+    flex: 1 1 auto;
+  }
+
+  /* aby sticky lišta nepřekryla obsah dole */
+  body{
+    padding-bottom: 84px;
+  }
+}
+
 
 
 
