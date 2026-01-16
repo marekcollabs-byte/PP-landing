@@ -115,8 +115,15 @@ li{ margin: 6px 0; }
 
 .btn--primary{
   background: linear-gradient(135deg, var(--primary), var(--primary-2));
-  color: #fff;
+  color: #ffffff;
   box-shadow: 0 18px 50px rgba(37,99,235,.20);
+}
+
+.btn--primary:visited,
+.btn--primary:hover,
+.btn--primary:active{
+  color: #ffffff;
+}
 }
 .btn--primary:hover{ filter: brightness(1.03); }
 
@@ -462,5 +469,6 @@ details p{
     font-size: 15px;
   }
 }
+
 
 
