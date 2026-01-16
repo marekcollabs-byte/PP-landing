@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Děkuji za objednávku</title>
+
+  <!-- META PIXEL – vložíš hned v dalším kroku -->
+
+  <script>
+    window.addEventListener("load", function () {
+      if (typeof fbq === "function") {
+        fbq("track", "Purchase", {
+          value: 399.00,
+          currency: "CZK"
+        });
+      }
+    });
+  </script>
+</head>
+
+<body style="font-family: system-ui; background:#f8fafc; padding:40px;">
+  <main style="max-width:720px;margin:auto;background:#fff;padding:40px;border-radius:18px;">
+    <h1>Děkuji! ✅</h1>
+    <p>Platba proběhla úspěšně.</p>
+    <p>
+      E-book najdeš:
+      <br>📩 v e-mailu, pro jistotu zkontroluj i spam
+      <br>📱 nebo přímo v účtu u SimpleShopu
+    </p>
+
+    <p style="margin-top:30px;">
+      <a href="/" style="color:#2563eb;">← Zpět na hlavní stránku</a>
+    </p>
+  </main>
+</body>
+</html>
