@@ -325,19 +325,33 @@
   </main>
 
   <script>
-    // 1) Sem později dosadíš link na SimpleShop checkout
-    const CHECKOUT_URL = "#"; // napr. "https://...simpleshop.cz/..."
+  // 1) Sem později dosadíš link na SimpleShop checkout
+  const CHECKOUT_URL = "#"; 
+  // napr.: "https://neco.simpleshop.cz/..."
 
-    // 2) Všechna tlačítka s data-checkout přesměrujeme na checkout
-    document.querySelectorAll("[data-checkout]").forEach(btn => {
-      btn.addEventListener("click", (e) => {
-        if (CHECKOUT_URL === "#") return; // zatim nic - dokud nedosadis link
-        e.preventDefault();
-        window.location.href = CHECKOUT_URL;
-      });
+  // 2) Všechna tlačítka s data-checkout přesměrujeme na checkout
+  document.querySelectorAll("[data-checkout]").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      if (CHECKOUT_URL === "#") return; // zatím nic, dokud nedosadíš link
+      e.preventDefault();
+      window.location.href = CHECKOUT_URL;
     });
+  });
 
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  // 3) Automatický rok ve footeru
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // 4) Zmenšení headeru při scrollu
+  const header = document.querySelector(".header");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 20){
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
+</script>
 </body>
 </html>
+
