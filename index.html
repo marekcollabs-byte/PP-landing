@@ -377,22 +377,25 @@ src="https://www.facebook.com/tr?id=1412041910578955&ev=PageView&noscript=1"/>
     </footer>
   </main>
 
-  // 3) Automatický rok ve footeru
-  document.getElementById("year").textContent = new Date().getFullYear();
+  <script>
+    // 3) Automatický rok ve footeru
+    document.getElementById("year").textContent = new Date().getFullYear();
 
-  // 4) Zmenšení headeru při scrollu
-  const header = document.querySelector(".header");
+    // 4) Zmenšení headeru při scrollu
+    const header = document.querySelector(".header");
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 20){
-      header.classList.add("scrolled");
-    } else {
-      header.classList.remove("scrolled");
-    }
-  });
-</script>
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 20) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    });
+  </script>
 </body>
 </html>
+
+
 
 
 
