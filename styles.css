@@ -346,6 +346,16 @@ body.theme-dark .box span{
   background: linear-gradient(135deg, rgba(37,99,235,.10), rgba(14,165,233,.08), rgba(255,255,255,.85));
   border: 1px solid rgba(37,99,235,.16);
 }
+/* Dark: panel nesmí přecházet do bílé */
+body.theme-dark .panel{
+  background: linear-gradient(
+    135deg,
+    rgba(47,124,246,.16),
+    rgba(56,217,169,.10),
+    rgba(15,26,43,.92)
+  );
+  border: 1px solid rgba(230,236,245,.12);
+}
 
 .panel h3{ margin: 0; font-size: 16px; }
 .panel p{ margin-top: 10px; color: var(--muted); font-size: 14px; }
@@ -455,6 +465,16 @@ body.theme-dark details p{
   box-shadow: var(--shadow);
   display:grid;
   gap: 14px;
+}
+/* Dark: CTA box bez bílé "mlhy" */
+body.theme-dark .cta{
+  background: linear-gradient(
+    135deg,
+    rgba(47,124,246,.14),
+    rgba(56,217,169,.08),
+    rgba(15,26,43,.92)
+  );
+  border: 1px solid rgba(230,236,245,.12);
 }
 
 .priceBox{
@@ -567,6 +587,7 @@ body.theme-dark .ssWrap a{
   }
 
  
+
 
 
 
