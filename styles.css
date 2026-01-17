@@ -466,6 +466,19 @@ body.theme-dark details p{
 
 .priceBox b{ font-size: 28px; display:block; margin-top: 6px; }
 .priceBox span{ color: var(--muted2); font-size: 13px; display:block; margin-top: 6px; }
+/* Dark: priceBox nesmí být bílý + text musí být čitelný */
+body.theme-dark .priceBox{
+  background: rgba(230,236,245,.06);
+  border: 1px solid rgba(230,236,245,.12);
+}
+
+body.theme-dark .priceBox b{
+  color: var(--text);
+}
+
+body.theme-dark .priceBox span{
+  color: var(--muted);
+}
 
 .footer{
   padding: 22px 0 34px;
@@ -540,6 +553,7 @@ body.theme-dark details p{
   }
 
  
+
 
 
 
