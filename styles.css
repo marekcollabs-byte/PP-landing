@@ -351,7 +351,8 @@ body.theme-dark .header{
   gap: 14px;
   padding: 16px;
   border-radius: 14px;
-  background: #fff;
+  background: var(--surface);
+  border: 1px solid var(--border);
 }
 
 .stepNum {
@@ -508,6 +509,7 @@ details p{
   }
 
  
+
 
 
 
