@@ -487,6 +487,20 @@ body.theme-dark .priceBox span{
   text-align:center;
   border-top: 1px solid rgba(15,23,42,.08);
 }
+/* SimpleShop: necháme vnitřek světlý, ale zasadíme to do dark designu */
+body.theme-dark .ssWrap{
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 18px;
+  border: 1px solid rgba(15,23,42,.10);
+  padding: 12px;
+}
+
+/* odkazy uvnitř formuláře ať nejsou "neviditelné" */
+body.theme-dark .ssWrap a{
+  color: #2563eb;
+  text-decoration: underline;
+}
 
 /* Responsive */
 @media (max-width: 980px){
@@ -553,6 +567,7 @@ body.theme-dark .priceBox span{
   }
 
  
+
 
 
 
