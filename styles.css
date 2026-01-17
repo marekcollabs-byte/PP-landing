@@ -324,6 +324,20 @@ body.theme-dark .header{
   color: var(--muted);
   box-shadow: 0 10px 30px rgba(2,6,23,.05);
 }
+/* Dark: boxy nesmí být bílé + text musí být čitelný */
+body.theme-dark .box{
+  background: rgba(230,236,245,.06);
+  border: 1px solid rgba(230,236,245,.12);
+  color: var(--text);
+  box-shadow: 0 18px 60px rgba(0,0,0,.25);
+}
+
+/* Dark: text uvnitř boxů (listy a malé texty) */
+body.theme-dark .box li,
+body.theme-dark .box ul,
+body.theme-dark .box span{
+  color: var(--muted);
+}
 
 .panel{
   margin-top: 16px;
@@ -419,6 +433,19 @@ details p{
   color: var(--muted);
   font-size: 14px;
 }
+/* Dark: FAQ nesmí být bílé */
+body.theme-dark details{
+  background: rgba(230,236,245,.06);
+  border: 1px solid rgba(230,236,245,.12);
+}
+
+body.theme-dark summary{
+  color: var(--text);
+}
+
+body.theme-dark details p{
+  color: var(--muted);
+}
 
 .cta{
   border-radius: 26px;
@@ -513,6 +540,7 @@ details p{
   }
 
  
+
 
 
 
