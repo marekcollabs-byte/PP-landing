@@ -169,6 +169,16 @@ body.theme-dark .header{
 }
 .btn--ghost:hover{ background: rgba(15,23,42,.05); }
 
+.btn--secondary{
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.18);
+  color: #e5ecff;
+}
+
+.btn--secondary:hover{
+  background: rgba(255,255,255,.14);
+}
+
 .badges{
   display:flex;
   flex-wrap:wrap;
@@ -591,6 +601,7 @@ body.theme-dark .ssWrap a{
   }
 
  
+
 
 
 
