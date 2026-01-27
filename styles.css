@@ -600,95 +600,70 @@ body.theme-dark .ssWrap a{
     font-size: 15px;
   }
 /* =========================
-   Testimonials / Recenze
+   RECENZE
 ========================= */
 
-.testimonials{
-  max-width: 980px;
-  margin: 0 auto;
+.reviewsGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
 }
 
-.tGrid{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.reviewCard{
+  background: linear-gradient(
+    160deg,
+    rgba(255,255,255,0.06),
+    rgba(255,255,255,0.02)
+  );
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
   gap: 14px;
 }
 
-.tCard{
-  background: rgba(255,255,255,.06);
-  border: 1px solid rgba(255,255,255,.14);
-  border-radius: 18px;
-  padding: 16px;
-  box-shadow: 0 14px 40px rgba(0,0,0,.18);
+.stars{
+  color: #facc15; /* zlaté hvězdy */
+  letter-spacing: 2px;
+  font-size: 18px;
 }
 
-.tTop{
+.reviewText{
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.reviewAuthor{
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 10px;
+  margin-top: auto;
 }
 
 .avatar{
-  width: 42px;
-  height: 42px;
-  border-radius: 999px;
-  overflow: hidden;
-  border: 1px solid rgba(255,255,255,.18);
-  background: rgba(255,255,255,.08);
-  flex: 0 0 auto;
-  display: grid;
-  place-items: center;
-  font-weight: 900;
-  color: rgba(255,255,255,.85);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.avatar img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.tName{
-  font-weight: 900;
+.reviewAuthor span{
+  color: var(--muted);
   font-size: 14px;
-  color: rgba(255,255,255,.92);
-  line-height: 1.2;
 }
 
-.stars{
-  display: inline-flex;
-  gap: 2px;
-  margin-top: 4px;
-  font-size: 14px;
-  letter-spacing: .2px;
-}
-
-.star{
-  opacity: .95;
-}
-
-.stars--4 .star:last-child{
-  opacity: .25;
-}
-
-.tText{
-  margin: 0;
-  color: rgba(255,255,255,.80);
-  font-size: 14px;
-  line-height: 1.65;
-}
-
-/* Responsive pro recenze */
-@media (max-width: 980px){
-  .tGrid{ grid-template-columns: repeat(2, 1fr); }
-}
-@media (max-width: 560px){
-  .tGrid{ grid-template-columns: 1fr; }
-}
 
  
+
 
 
 
