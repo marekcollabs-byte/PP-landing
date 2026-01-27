@@ -599,8 +599,97 @@ body.theme-dark .ssWrap a{
   .lead{
     font-size: 15px;
   }
+/* =========================
+   Testimonials / Recenze
+========================= */
+
+.testimonials{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.tGrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.tCard{
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 14px 40px rgba(0,0,0,.18);
+}
+
+.tTop{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.avatar{
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.08);
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  color: rgba(255,255,255,.85);
+}
+
+.avatar img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tName{
+  font-weight: 900;
+  font-size: 14px;
+  color: rgba(255,255,255,.92);
+  line-height: 1.2;
+}
+
+.stars{
+  display: inline-flex;
+  gap: 2px;
+  margin-top: 4px;
+  font-size: 14px;
+  letter-spacing: .2px;
+}
+
+.star{
+  opacity: .95;
+}
+
+.stars--4 .star:last-child{
+  opacity: .25;
+}
+
+.tText{
+  margin: 0;
+  color: rgba(255,255,255,.80);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+/* Responsive pro recenze */
+@media (max-width: 980px){
+  .tGrid{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px){
+  .tGrid{ grid-template-columns: 1fr; }
+}
 
  
+
 
 
 
