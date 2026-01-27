@@ -597,11 +597,15 @@ body.theme-dark .ssWrap a{
   }
 
   .lead{
-    font-size: 15px;
-  }
+  font-size: 15px;
+}
+
+}
+   
 /* =========================
    RECENZE
 ========================= */
+
 
 .reviewsGrid{
   display: grid;
@@ -623,6 +627,26 @@ body.theme-dark .ssWrap a{
   display: flex;
   flex-direction: column;
   gap: 14px;
+}
+/* Desktop: 2 sloupce */
+@media (min-width: 768px){
+  .reviewsGrid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Velký desktop: 3 sloupce */
+@media (min-width: 1100px){
+  .reviewsGrid{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobil: 1 sloupec */
+@media (max-width: 560px){
+  .reviewsGrid{
+    grid-template-columns: 1fr;
+  }
 }
 
 .stars{
@@ -663,6 +687,7 @@ body.theme-dark .ssWrap a{
 
 
  
+
 
 
 
