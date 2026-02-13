@@ -798,9 +798,35 @@ body.theme-dark .ssWrap a{
 @media (max-width: 560px){
   .cards2, .cards3{ grid-template-columns: 1fr; }
 }
+.formGrid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 12px;
+}
+.field label{
+  display:block;
+  font-size: 12px;
+  margin-bottom: 6px;
+  color: var(--muted2);
+}
+.field input, .field select, .field textarea{
+  width: 100%;
+  border: 1px solid rgba(15,23,42,.12);
+  border-radius: 12px;
+  padding: 12px 12px;
+  font-size: 14px;
+  background: #fff;
+}
+.field textarea{ resize: vertical; }
+.field--full{ grid-column: 1 / -1; }
+
+@media (max-width: 720px){
+  .formGrid{ grid-template-columns: 1fr; }
+}
 
 
  
+
 
 
 
