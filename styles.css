@@ -870,29 +870,39 @@ body.theme-dark .ssWrap a{
 @media (max-width: 720px){
   .formGrid{ grid-template-columns: 1fr; }
 }
+/* ===== CENA BOX (FIRMY) ===== */
+
+.priceWrap{
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
 .priceBox{
-  margin: 40px auto 0;
-  max-width: 860px;
-  padding: 22px 24px;
-  border-radius: 18px;
+  max-width: 720px;
+  width: 100%;
+  padding: 32px 36px;
+  border-radius: 22px;
   background: linear-gradient(
     135deg,
-    rgba(37,99,235,.08),
-    rgba(16,185,129,.06)
+    rgba(37,99,235,.18),
+    rgba(16,185,129,.14)
   );
-  border: 1px solid rgba(37,99,235,.18);
-  box-shadow: 0 10px 30px rgba(2,6,23,.06);
+  border: 1px solid rgba(37,99,235,.35);
+  box-shadow: 0 25px 80px rgba(37,99,235,.18);
+  text-align: center;
 }
 
 .priceBox p{
   margin: 0;
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.7;
   color: var(--text);
 }
 
 
  
+
 
 
 
