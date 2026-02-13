@@ -178,21 +178,104 @@ A kdyby to byl někdo z vašich lidí… nebo vy sám — byl by tam někdo, kdo
       </div>
     </section>
 
-    <!-- POPTVKA -->
-    <section class="section soft" id="poptavka">
-      <div class="container">
-        <div class="sectionHead">
-          <span class="kicker">Poptávka</span>
-          <h2 class="h2">Chcete termín a nabídku?</h2>
-          <p class="sub">Napište mi pár informací a ozvu se s návrhem.</p>
+ <!-- POPTVKA -->
+<section class="section soft" id="poptavka">
+  <div class="container">
+    <div class="sectionHead">
+      <span class="kicker">Poptávka</span>
+      <h2 class="h2">Chcete termín a nabídku?</h2>
+      <p class="sub">Vyplňte pár údajů — ozvu se vám zpátky.</p>
+    </div>
+
+    <div class="card cardPad">
+      <form
+        action="https://formspree.io/f/xnjbpzvd"
+        method="POST"
+        class="form"
+      >
+        <div class="formGrid">
+          <div class="field">
+            <label for="jmeno">Jméno a příjmení *</label>
+            <input id="jmeno" name="jmeno" type="text" required autocomplete="name" />
+          </div>
+
+          <div class="field">
+            <label for="pozice">Pozice ve firmě *</label>
+            <select id="pozice" name="pozice" required>
+              <option value="" selected disabled>Vyberte…</option>
+              <option>Majitel / Jednatel</option>
+              <option>HR</option>
+              <option>Provozní / Vedoucí</option>
+              <option>Office manager</option>
+              <option>Jiné</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="firma">Název firmy *</label>
+            <input id="firma" name="firma" type="text" required />
+          </div>
+
+          <div class="field">
+            <label for="ico">IČO</label>
+            <input id="ico" name="ico" type="text" inputmode="numeric" pattern="[0-9]{8}" placeholder="8 číslic" />
+          </div>
+
+          <div class="field">
+            <label for="email">E-mail *</label>
+            <input id="email" name="email" type="email" required autocomplete="email" />
+          </div>
+
+          <div class="field">
+            <label for="telefon">Telefon *</label>
+            <input id="telefon" name="telefon" type="tel" required autocomplete="tel" />
+          </div>
+
+          <div class="field">
+            <label for="mesto">Město / lokalita *</label>
+            <input id="mesto" name="mesto" type="text" required />
+          </div>
+
+          <div class="field">
+            <label for="pocet">Počet účastníků *</label>
+            <input id="pocet" name="pocet" type="number" required min="1" />
+          </div>
+
+          <div class="field">
+            <label for="provoz">Typ provozu *</label>
+            <input id="provoz" name="provoz" type="text" required placeholder="kanceláře / výroba / sklad…" />
+          </div>
+
+          <div class="field">
+            <label for="termin">Preferovaný termín</label>
+            <input id="termin" name="termin" type="text" placeholder="např. únor / konkrétní datum" />
+          </div>
+
+          <div class="field field--full">
+            <label for="poznamka">Poznámka</label>
+            <textarea id="poznamka" name="poznamka" rows="4" placeholder="Co chcete řešit? (např. elektrika, výšky, stroje…)"></textarea>
+          </div>
+
+          <!-- Anti-spam honeypot -->
+          <input type="text" name="_gotcha" style="display:none">
+
+          <!-- Přesměrování po odeslání -->
+          <input type="hidden" name="_redirect" value="https://www.prvnipomoc.eu/dekuji.html">
+
+          <!-- Předmět e-mailu -->
+          <input type="hidden" name="_subject" value="Poptávka školení pro firmu (prvnipomoc.eu/firmy)">
         </div>
 
-        <div class="card cardPad">
-          <p class="sub"><strong>Nejrychlejší:</strong> napište e-mail s: město, počet lidí, typ provozu, preferovaný termín.</p>
-          <a class="btn btn--primary" href="mailto:info@prvnipomoc.eu?subject=Poptávka%20školení%20pro%20firmu&body=Ahoj,%0D%0A%0D%0AMěsto:%20%0D%0APočet%20lidí:%20%0D%0ATyp%20provozu:%20%0D%0APreferovaný%20termín:%20%0D%0A%0D%0ADíky!">
-            Napsat poptávku
-          </a>
-        </div>
+        <button class="btn btn--primary w100" type="submit">Odeslat poptávku</button>
+
+        <p class="sub" style="margin-top:10px;">
+          Odesláním souhlasíte se zpracováním údajů za účelem vyřízení poptávky.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
 
         <div class="tinyAbout">
           <p class="sub">
@@ -218,6 +301,7 @@ A kdyby to byl někdo z vašich lidí… nebo vy sám — byl by tam někdo, kdo
   </script>
 </body>
 </html>
+
 
 
 
