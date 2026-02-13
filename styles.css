@@ -870,9 +870,30 @@ body.theme-dark .ssWrap a{
 @media (max-width: 720px){
   .formGrid{ grid-template-columns: 1fr; }
 }
+.priceBox{
+  margin: 40px auto 0;
+  max-width: 860px;
+  padding: 22px 24px;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    rgba(37,99,235,.08),
+    rgba(16,185,129,.06)
+  );
+  border: 1px solid rgba(37,99,235,.18);
+  box-shadow: 0 10px 30px rgba(2,6,23,.06);
+}
+
+.priceBox p{
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+}
 
 
  
+
 
 
 
