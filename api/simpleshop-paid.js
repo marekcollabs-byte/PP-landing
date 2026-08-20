@@ -1,7 +1,22 @@
 const crypto = require('crypto');
 
+function first(value) {
+  if (Array.isArray(value)) return value[0];
+  return value;
+}
+
+function cleanValue(value) {
+  const raw = first(value);
+  if (raw === undefined || raw === null) return undefined;
+  const text = String(raw).trim();
+  if (!text) return undefined;
+  if (/^\{[^{}]+\}$/.test(text)) return undefined;
+  return text;
+}
+
 function normalize(value) {
-  return String(value || '').trim().toLowerCase();
+  const cleaned = cleanValue(value);
+  return cleaned ? cleaned.toLowerCase() : '';
 }
 
 function sha256(value) {
@@ -10,14 +25,10 @@ function sha256(value) {
   return crypto.createHash('sha256').update(normalized).digest('hex');
 }
 
-function first(value) {
-  if (Array.isArray(value)) return value[0];
-  return value;
-}
-
 function parseMoney(value) {
-  if (value === undefined || value === null || value === '') return NaN;
-  let raw = String(value).trim().replace(/\s/g, '');
+  const cleaned = cleanValue(value);
+  if (!cleaned) return NaN;
+  let raw = cleaned.replace(/\s/g, '');
   raw = raw.replace(/[^0-9,.-]/g, '');
 
   if (raw.includes(',') && raw.includes('.')) {
@@ -42,7 +53,7 @@ module.exports = async function handler(req, res) {
 
   const source = req.method === 'GET' ? req.query : { ...req.query, ...(req.body || {}) };
 
-  const secret = first(source.secret);
+  const secret = cleanValue(source.secret);
   if (!process.env.SIMPLESHOP_WEBHOOK_SECRET || secret !== process.env.SIMPLESHOP_WEBHOOK_SECRET) {
     return res.status(401).json({ ok: false, error: 'Unauthorized' });
   }
@@ -55,14 +66,14 @@ module.exports = async function handler(req, res) {
     return res.status(500).json({ ok: false, error: 'META_CAPI_ACCESS_TOKEN is not configured' });
   }
 
-  const orderNumber = first(source.order_number) || first(source.number) || first(source.id);
-  const totalRaw = first(source.total) ?? first(source.price);
-  const currency = String(first(source.currency) || 'CZK').trim().toUpperCase();
+  const orderNumber = cleanValue(source.order_number) || cleanValue(source.number) || cleanValue(source.id);
+  const totalRaw = cleanValue(source.total) ?? cleanValue(source.price);
+  const currency = (cleanValue(source.currency) || 'CZK').toUpperCase();
 
-  if (!orderNumber || totalRaw === undefined || totalRaw === null || totalRaw === '') {
+  if (!orderNumber || totalRaw === undefined) {
     console.warn('SimpleShop webhook missing required fields', {
       hasOrderNumber: Boolean(orderNumber),
-      hasTotal: !(totalRaw === undefined || totalRaw === null || totalRaw === ''),
+      hasTotal: totalRaw !== undefined,
       receivedKeys: Object.keys(source).filter((key) => key !== 'secret' && key !== 'email' && key !== 'phone')
     });
     return res.status(400).json({ ok: false, error: 'Missing order_number/number/id or total' });
@@ -77,12 +88,13 @@ module.exports = async function handler(req, res) {
     return res.status(400).json({ ok: false, error: 'Invalid total' });
   }
 
-  const emailHash = sha256(first(source.email));
-  const phoneHash = sha256(String(first(source.phone) || '').replace(/[^0-9+]/g, ''));
-  const firstNameHash = sha256(first(source.first_name));
-  const lastNameHash = sha256(first(source.last_name));
-  const countryHash = sha256(first(source.country));
-  const externalIdHash = sha256(first(source.customer_id));
+  const emailHash = sha256(source.email);
+  const phone = cleanValue(source.phone);
+  const phoneHash = sha256(phone ? phone.replace(/[^0-9+]/g, '') : undefined);
+  const firstNameHash = sha256(source.first_name);
+  const lastNameHash = sha256(source.last_name);
+  const countryHash = sha256(source.country);
+  const externalIdHash = sha256(source.customer_id);
 
   const userData = {};
   if (emailHash) userData.em = [emailHash];
