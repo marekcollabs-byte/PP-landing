@@ -15,6 +15,25 @@ function first(value) {
   return value;
 }
 
+function parseMoney(value) {
+  if (value === undefined || value === null || value === '') return NaN;
+  let raw = String(value).trim().replace(/\s/g, '');
+  raw = raw.replace(/[^0-9,.-]/g, '');
+
+  if (raw.includes(',') && raw.includes('.')) {
+    // Assume the last separator is the decimal separator.
+    if (raw.lastIndexOf(',') > raw.lastIndexOf('.')) {
+      raw = raw.replace(/\./g, '').replace(',', '.');
+    } else {
+      raw = raw.replace(/,/g, '');
+    }
+  } else {
+    raw = raw.replace(',', '.');
+  }
+
+  return Number(raw);
+}
+
 module.exports = async function handler(req, res) {
   if (!['GET', 'POST'].includes(req.method)) {
     res.setHeader('Allow', 'GET, POST');
@@ -36,16 +55,25 @@ module.exports = async function handler(req, res) {
     return res.status(500).json({ ok: false, error: 'META_CAPI_ACCESS_TOKEN is not configured' });
   }
 
-  const orderNumber = first(source.order_number) || first(source.id);
-  const totalRaw = first(source.total);
+  const orderNumber = first(source.order_number) || first(source.number) || first(source.id);
+  const totalRaw = first(source.total) ?? first(source.price);
   const currency = String(first(source.currency) || 'CZK').trim().toUpperCase();
 
-  if (!orderNumber || !totalRaw) {
-    return res.status(400).json({ ok: false, error: 'Missing order_number/id or total' });
+  if (!orderNumber || totalRaw === undefined || totalRaw === null || totalRaw === '') {
+    console.warn('SimpleShop webhook missing required fields', {
+      hasOrderNumber: Boolean(orderNumber),
+      hasTotal: !(totalRaw === undefined || totalRaw === null || totalRaw === ''),
+      receivedKeys: Object.keys(source).filter((key) => key !== 'secret' && key !== 'email' && key !== 'phone')
+    });
+    return res.status(400).json({ ok: false, error: 'Missing order_number/number/id or total' });
   }
 
-  const total = Number(String(totalRaw).replace(',', '.'));
+  const total = parseMoney(totalRaw);
   if (!Number.isFinite(total) || total < 0) {
+    console.warn('SimpleShop webhook invalid total', {
+      totalType: typeof totalRaw,
+      totalPreview: String(totalRaw).replace(/[0-9]/g, '#').slice(0, 32)
+    });
     return res.status(400).json({ ok: false, error: 'Invalid total' });
   }
 
@@ -100,6 +128,13 @@ module.exports = async function handler(req, res) {
       console.error('Meta CAPI error', { status: response.status, body: metaBody, orderNumber });
       return res.status(502).json({ ok: false, error: 'Meta CAPI rejected event', meta: metaBody });
     }
+
+    console.log('SimpleShop Purchase sent to Meta', {
+      eventId: event.event_id,
+      value: total,
+      currency,
+      eventsReceived: metaBody.events_received
+    });
 
     return res.status(200).json({
       ok: true,
