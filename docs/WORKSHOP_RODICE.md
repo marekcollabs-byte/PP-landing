@@ -33,7 +33,7 @@ Komunikace: přímá, lidská, praktická, odborně přesná. Slibovat konkrétn
 - Pro pracovní variantu **10 dvojic = 20 dospělých chce Marek 5 figurín**, tedy jednu na dvě dvojice / čtyři osoby. Dvojice se při nácviku střídají.
 - Figuríny je nutné půjčit v Brně a okolí; osobní cesta do Prahy či Berouna není přijatelná.
 - Pokud budou workshopy pravidelné, Marek zvažuje vlastní figuríny. Na jeho screenshotu Temu je kojenecký model za 1 355 Kč; skutečné vlastnosti a konečná cena nebyly ověřené.
-- Leden 2027: data zatím neurčená. Cena workshopu, minimální účast a poukazové podmínky stále nejsou schválené.
+- Předběžné termíny určené Markem: 8. 1. 2027 a 15. 1. 2027 vždy od 17:00. Cena, minimum a poukazové podmínky nejsou schválené.
 
 ## 3. Aktuální pracovní návrh — k potvrzení
 
@@ -186,7 +186,7 @@ Bc. Marek Luskač, zdravotnický záchranář, autor e-booku První pomoc u dět
 
 ### 4. Kde a kdy to bude?
 
-Plánujeme Slavkov u Brna, malý sál SC Bonaparte, leden 2027. Konkrétní adresu, data a časy doplnit po rezervaci. Délka pracovně tři hodiny.
+Plánujeme Slavkov u Brna, malý sál SC Bonaparte, leden 2027. Předběžně 8. a 15. 1. 2027, 17:00–20:00. Rezervace prostoru a finální podoba nabídky ještě nejsou potvrzené.
 
 ### 5. Kolik lidí bude ve skupině?
 
@@ -216,7 +216,7 @@ Pracovní návrh: možnost náhradníka a přesunu podle dostupnosti při včasn
 | 6 | Vybrat 2 konkrétní lednové termíny | Otevřeno |
 | 7 | Dokončit osnovu, pomůcky a scénáře | Otevřeno |
 | 8 | Nastavit objednávku, kapacitu, platbu, poukazy a podmínky | Otevřeno |
-| 9 | Vytvořit landing page /workshop | Zatím nevytvořena |
+| 9 | Vytvořit landing page /workshop | Vytvořena obsahová verze bez prodejních formulářů |
 | 10 | Natočit 3 reklamní varianty a ukázku poukazu | Otevřeno |
 | 11 | Ověřit celý nákup na mobilu a měření skutečných plateb | Otevřeno |
 | 12 | Spustit vlastní publikum a lokální propagaci | Zatím nespuštěno |
@@ -229,7 +229,7 @@ Pro reklamy: praktický nácvik, dárek pro nastávající rodiče, společná p
 ## 11. Technické návaznosti
 
 - Repozitář: marekcollabs-byte/PP-landing, výchozí větev main.
-- Existující web je statický; workshopová stránka zatím neexistuje.
+- Existující web je statický; nová stránka je v workshop/index.html se samostatným CSS a JS.
 - Plánovaná cesta: /workshop.
 - Prodej přes stávající SimpleShop je pracovní směr, konkrétní nastavení produktu/poukazů se neprovedlo.
 - Při budoucí práci na Meta Pixelu, CAPI nebo měření nákupů nejprve načíst [AGENTS.md](../AGENTS.md) a [META_TRACKING_HANDOFF.md](META_TRACKING_HANDOFF.md).
@@ -283,7 +283,7 @@ Fotografie dodané Markem: IMG_7998.png (ceník Bonaparte), IMG_7999.png (nabíd
 
 ## 15. Návrh landing page a prodeje — 2026-11-01
 
-Stav: doporučení asistenta po kontrole současného e-booku, /firmy a dokumentace SimpleShopu. Stránka zatím není implementovaná; ceny, data a podmínky nejsou tímto návrhem potvrzené.
+Stav: doporučení asistenta po kontrole současného e-booku, /firmy a dokumentace SimpleShopu. Obsahová stránka byla následně implementovaná podle bodu 16. Cena a podmínky zůstávají předběžné.
 
 ### Vzhled a struktura
 
@@ -308,3 +308,20 @@ Ověřit objednávku posledního místa, nezaplacenou objednávku a její expira
 Chybí: potvrzené termíny, finální cena a kapacita, platnost a pravidla poukazu, skutečné formuláře/odkazy SimpleShopu a otestované nastavení. Nezveřejňovat smyšlené termíny, obsazenost ani aktivní nákup bez konfigurace.
 
 Zdroje: [Prodej workshopů](https://podpora.redbit.cz/navod/prodej-kurzu/), [varianty](https://podpora.redbit.cz/navod/varianty-produktu/), [nastavení voucherů](https://podpora.redbit.cz/navod/voucher-nastaveni-prodeje/), [uplatnění dárkového voucheru](https://podpora.redbit.cz/navod/voucher-jako-poukaz-na-slevu/). Ověřeno v dokumentaci; nastavení v Markově účtu se zatím neprovádělo.
+
+
+## 16. Implementace stránky /workshop — 2026-11-01
+
+Na Markův pokyn vytvořena stránka s předběžnými termíny 8. a 15. ledna 2027 od 17:00. Plánovaný konec je 20:00 podle pracovního tříhodinového formátu.
+
+- Soubory: workshop/index.html, workshop/workshop.css, workshop/workshop.js.
+- Styl navazuje na tmavý e-book a sdílený styles.css; původní e-book ani /firmy se neupravují.
+- Obsah: úvod, nácvik, průběh, dva lektoři, nabídka pro dva, termíny/poukaz, místo, FAQ.
+- Předběžná cena 1 990 Kč za dvojici je na stránce výslovně označena; stále nejde o schválení finální ceny.
+- Karty termínů umožňují nezávazný výběr; režim Chci darovat ukazuje návrh poukazu.
+- Bez formuláře SimpleShopu, plateb, sběru údajů a skutečné rezervace. Objednávková tlačítka jsou neaktivní a vysvětlují stav přípravy.
+- Připravené oddělené místo pro formulář workshopu a poukazu. Po dodání formulářů propojit výběr s reálnou kapacitou; neponechat dva nesynchronizované výběry termínu.
+- Pro předběžnou stránku nastaven noindex; odstranit před ostrým prodejem po potvrzení údajů.
+- Nejsou přidávány události Purchase ani změny stávajícího měření.
+- Ověřena syntaxe JS, datum obou pátků, kotvy a unikátní ID; v prohlížeči výběr termínu a přepnutí nabídky na poukaz.
+- Samostatná emulace mobilního viewportu zatím neprovedena; CSS obsahuje responzivní rozložení pro menší šířky.
