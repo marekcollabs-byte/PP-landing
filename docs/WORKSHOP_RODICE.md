@@ -279,3 +279,32 @@ Fotografie dodané Markem: IMG_7998.png (ceník Bonaparte), IMG_7999.png (nabíd
 - Na nynější pokyn Marka aktualizován celý dokument a odstraněny rozpory v kapacitě, ceně, pronájmu a vybavení. Žádný dodavatel nebyl kontaktován; nic se nerezervovalo ani nekoupilo.
 
 - Marek výslovně potvrdil zveřejnění celého dokumentu včetně rozpočtu v repozitáři marekcollabs-byte/PP-landing. Tato verze je určena pro docs/WORKSHOP_RODICE.md na větvi main.
+
+
+## 15. Návrh landing page a prodeje — 2026-11-01
+
+Stav: doporučení asistenta po kontrole současného e-booku, /firmy a dokumentace SimpleShopu. Stránka zatím není implementovaná; ceny, data a podmínky nejsou tímto návrhem potvrzené.
+
+### Vzhled a struktura
+
+Navázat na existující styles.css: logo PP, systémové písmo, modrá a mint, zaoblené karty a stejné rozměry obsahu. E-book aktuálně používá tmavou variantu, /firmy světlou. Pro workshop navržená tmavá varianta jako návaznost na e-book; nové styly omezit na workshop.
+
+Pořadí: (1) úvod s přínosem, lokalitou a tlačítky Vybrat termín / Darovat workshop; (2) konkrétní nácvik; (3) průběh a dvojice; (4) oba lektoři; (5) přehledná nabídka pro dvě osoby a obsah ceny; (6) nákup s volbou termínu nebo poukazu; (7) místo, praktické informace a FAQ. Pro úvod vhodná skutečná fotografie Marka při nácviku, pokud ji dodá. Reference z e-booku označit podle skutečného produktu, nikoliv vydávat za reference workshopu.
+
+### Doporučená technika
+
+Ponechat stávající repo a web /workshop. Pro první několik termínů postačuje SimpleShop bez další rezervační služby. Doporučení: živý kurz s termíny jako variantami a kapacitou každé varianty; samostatný dárkový voucher. Jednotka skladu je jeden balíček pro dvě osoby, ne jeden člověk.
+
+Místo měsíčního kalendáře nabídnout karty vypsaných termínů. První verze může použít výběr variant a zobrazení dostupnosti přímo ve vloženém formuláři SimpleShopu. Na vlastním webu nevytvářet nezávislý čítač volných míst. Platby a objednávky spravuje SimpleShop.
+
+Dárek: kupující koupí voucher bez data, dostane ho po zaplacení; obdarovaný si vybere termín a uplatní kód přes voucher propojený s kupónem. Navržený nárok je celý workshop pro dvě osoby, nikoliv pouze peněžní kredit; konkrétní nastavení a chování po případné změně ceny ověřit.
+
+### Kapacita a ověření před spuštěním
+
+Prodej poukazu bez data sám o sobě nepředstavuje rezervaci termínu. Omezit počet poukazů a vyhradit pro ně kapacitu; pro první běh ručně spravovat kvótu oproti přímému prodeji. Samotný společný sklad termínu neřeší ještě neuplatněné poukazy. Pokud bude později požadovaná plná automatická synchronizace všech kvót, posoudit integraci až podle reálného provozu.
+
+Ověřit objednávku posledního místa, nezaplacenou objednávku a její expiraci, nulovou objednávku po uplatnění poukazu, opakované použití kódu, storno a přesun. Při následné rezervaci poukazem nepočítat další placený prodej a nerozbít stávající tracking. Před implementací měření znovu načíst tracking handoff.
+
+Chybí: potvrzené termíny, finální cena a kapacita, platnost a pravidla poukazu, skutečné formuláře/odkazy SimpleShopu a otestované nastavení. Nezveřejňovat smyšlené termíny, obsazenost ani aktivní nákup bez konfigurace.
+
+Zdroje: [Prodej workshopů](https://podpora.redbit.cz/navod/prodej-kurzu/), [varianty](https://podpora.redbit.cz/navod/varianty-produktu/), [nastavení voucherů](https://podpora.redbit.cz/navod/voucher-nastaveni-prodeje/), [uplatnění dárkového voucheru](https://podpora.redbit.cz/navod/voucher-jako-poukaz-na-slevu/). Ověřeno v dokumentaci; nastavení v Markově účtu se zatím neprovádělo.
