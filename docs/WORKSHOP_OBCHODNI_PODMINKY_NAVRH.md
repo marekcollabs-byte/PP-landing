@@ -24,11 +24,11 @@ Smlouva se uzavírá česky, pořadatel ji uchovává elektronicky a na vyžád�
 
 ## 3. Cena a platba
 
-Cena je konečná za celý balíček, včetně povinných daní a poplatků. [OVĚŘIT daňové postavení; neuvádět neověřeně „nejsem plátce DPH“.] Aktuální konfigurace: 1 990 Kč za balíček pro dvě osoby.
+Cena je konečná za celý balíček, včetně povinných daní a poplatků. Pořadatel není plátcem DPH. Aktuální konfigurace: 1 990 Kč za balíček pro dvě osoby.
 
-Platí se kartou nebo převodem podle nabídky ve formuláři. Splatnost a platební údaje jsou uvedeny v objednávce. Účast je podmíněna uhrazením ceny. Neuhrazená objednávka se ruší po uplynutí [DOPLNIT podle nastavení] a její místa se uvolní. Pořadatel předem sdělí dobu blokace místa.
+Platí se kartou přes Stripe nebo bankovním převodem na účet pořadatele vedený u Komerční banky, a.s., podle nabídky ve formuláři. Splatnost a platební údaje jsou uvedeny v objednávce. Účast je podmíněna uhrazením ceny. Neuhrazená objednávka se ruší po uplynutí [DOPLNIT podle nastavení] a její místa se uvolní. Pořadatel předem sdělí dobu blokace místa.
 
-Součástí ceny je nácvik, použití pomůcek a e-book První pomoc u dětí pro osobní potřebu. [POTVRDIT způsob a čas dodání e-booku.] Pouhé dodání e-booku nezbavuje zákazníka práva odstoupit od workshopu. Bez odpovídajícího zákonného postupu se při odstoupení nebude dodatečně účtovat jeho samostatná prodejní cena.
+Součástí ceny je nácvik, použití pomůcek a e-book První pomoc u dětí pro osobní potřebu. E-book bude kupujícímu zpřístupněn elektronicky ihned po potvrzení úhrady v systému SimpleShop prostřednictvím odkazu zaslaného na e-mail uvedený v objednávce. Pouhé dodání e-booku nezbavuje zákazníka práva odstoupit od workshopu. Bez odpovídajícího zákonného postupu se při odstoupení nebude dodatečně účtovat jeho samostatná prodejní cena.
 
 ## 4. Průběh a bezpečnost
 
@@ -99,7 +99,7 @@ Podpis (jen při zaslání na papíře):
 ## Redakční poznámky před publikací
 
 - Identifikace a kontakty doplněny podle Marka 23. 11. 2026; PSČ doplněno podle veřejného výpisu. Ověřit zápis v rejstříku.
-- Doplnit splatnost/expiraci, dodání e-booku. Minimum 6 zaplacených dvojic a potvrzení 7 dní předem schválil Marek 23. 11. 2026.
+- Doplnit splatnost/expiraci, ověřit skutečné automatické doručení e-booku po úhradě. Minimum 6 zaplacených dvojic a potvrzení 7 dní předem schválil Marek 23. 11. 2026.
 - Storno schváleno Markem: bezplatně alespoň 14 dní předem, později náhradník. Sladit nabídku, FAQ, e-maily a SimpleShop. Konkrétní cena a termíny mají být potvrzené.
 - Nahrát finální podmínky jako produktový dokument pro přiložení k e-mailu; neměnit globální podmínky e-booku.
 - Předpokládaná stránka /workshop/obchodni-podminky; dokud návrh není dokončený, odkaz ještě neexistuje.
