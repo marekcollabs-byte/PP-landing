@@ -364,3 +364,10 @@ Na Markův pokyn vytvořena stránka s předběžnými termíny 8. a 15. ledna 2
 - Organizační zprávy z marekcollabs@gmail.com přes Gmail.
 - Doplněno do návrhu ochrany osobních údajů, oddělené role Stripe a upozornění na neověřený smluvní režim běžného Gmailu. Nepředpokládat automaticky Google Workspace DPA.
 - Finální veřejné právní stránky stále nejsou vydané; chybějící údaje a skutečnou konfiguraci dokončit před připojením k objednávce.
+
+### Doručení e-booku a platební údaje — schváleno 2026-11-23
+
+- Marek není plátce DPH.
+- Bankovní převody přijímá u Komerční banky, a.s.; číslo účtu sděluje zákazníkovi SimpleShop, nebylo potřeba jej zveřejňovat v dokumentaci.
+- E-book v ceně workshopu se má doručovat ihned po potvrzení úhrady, elektronickým odkazem na objednávkový e-mail. Jde o schválené chování; automatizaci v produktu ještě nastavit a otestovat.
+- Upraveny návrhy obchodních podmínek a ochrany údajů. Samotné předání e-booku neruší právo odstoupit od workshopu a neznamená dodatečné stržení běžné ceny e-booku při odstoupení.
