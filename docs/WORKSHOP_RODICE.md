@@ -337,3 +337,13 @@ Na Markův pokyn vytvořena stránka s předběžnými termíny 8. a 15. ledna 2
 - Dárkový voucher zatím nemá produkt ani formulář, tlačítko zůstává neaktivní.
 - Nezměněn Pixel, CAPI, webhooky ani děkovací stránka. Před reklamami zbývá ověřit měření workshopu, platbu, e-mail, odečítání skladu a neuhrazené objednávky.
 - Před ostrou propagací potvrdit sál, vybavení, podmínky a vyhradit kapacitu pro poukazy. Pravidla storna nejsou tímto zápisem stanovena.
+
+## 18. Právní dokumenty — pracovní návrhy 2026-11-23
+
+- Na Markův požadavek připraveny docs/WORKSHOP_OBCHODNI_PODMINKY_NAVRH.md a docs/WORKSHOP_OSOBNI_UDAJE_NAVRH.md.
+- Jde o označené pracovní návrhy, nikoli hotové podmínky připojené k objednávce. Veřejné právní stránky ani odkazy SimpleShopu zatím nebyly vytvořeny.
+- Chybí IČO, sídlo a potvrzení kontaktních údajů. Marek byl dotázán také na navržené dobrovolné storno (7 dní zdarma, později náhradník).
+- Návrh zachovává 14denní spotřebitelské odstoupení; nepředpokládá bez právního ověření automatickou výjimku pro volnočasové akce.
+- Pro dokončení zjistit minimum účastníků a termín potvrzení konání, platební expiraci, doručení e-booku a skutečné zpracovatele / retence / předání mimo EHP. Ověřit globální měření formuláře a označení platebního tlačítka.
+- V SimpleShopu navrženo nahradit obecný povinný souhlas s GDPR informačním textem s odkazem; souhlas s podmínkami ponechat samostatně a zajistit zákazníkovi jejich trvalou kopii.
+- Voucher bude vyžadovat další pravidla; nynější návrh upravuje přímý nákup konkrétního termínu.
