@@ -371,3 +371,15 @@ Na Markův pokyn vytvořena stránka s předběžnými termíny 8. a 15. ledna 2
 - Bankovní převody přijímá u Komerční banky, a.s.; číslo účtu sděluje zákazníkovi SimpleShop, nebylo potřeba jej zveřejňovat v dokumentaci.
 - E-book v ceně workshopu se má doručovat ihned po potvrzení úhrady, elektronickým odkazem na objednávkový e-mail. Jde o schválené chování; automatizaci v produktu ještě nastavit a otestovat.
 - Upraveny návrhy obchodních podmínek a ochrany údajů. Samotné předání e-booku neruší právo odstoupit od workshopu a neznamená dodatečné stržení běžné ceny e-booku při odstoupení.
+
+## 19. Veřejné právní stránky — 2026-11-23
+
+- Na Markův výslovný pokyn vytvořeny stránky /workshop/obchodni-podminky a /workshop/ochrana-osobnich-udaju; obě ve stejném repozitáři a s čitelnou tiskovou úpravou.
+- Čisté textové zdroje v docs/WORKSHOP_OBCHODNI_PODMINKY.md a docs/WORKSHOP_OSOBNI_UDAJE.md. Původní soubory NAVRH jsou historické pracovní podklady, nikoli text pro připojení k objednávce.
+- Doplněny odkazy do patičky workshopu, minimum a potvrzení konání u objednávky a schválené storno do FAQ.
+- Veřejné texty neobsahují poznámky DOPLNIT/OVĚŘIT. Nezaručují automatické storno ani výhradní zpracování v EU. Pro smluvní přijetí použito potvrzení objednávky; sladit e-mailové šablony.
+- Splatnost na screenshotu byla 10 dní, doporučeno změnit na 3 dny; uložení není samostatně ověřeno, veřejný text proto odkazuje na konkrétní splatnost v objednávce.
+- Marek uvedl, že připojení e-booku k variantám a doplnění proměnných v e-mailu provedl; skutečné doručení zatím neotestováno.
+- Zbývá: vložit URL do SimpleShopu, přiložit zákazníkovi verzi podmínek v trvalé podobě, ověřit tlačítko výslovně zavazující k platbě a proces odstoupení. U prodeje v posledních 14 dnech do kurzu případně samostatná výslovná žádost o zahájení služby.
+- Dokumentace není auditem GDPR provozu. Ověřit smluvní vztahy s dodavateli, účetní/technické retence, případné globální Meta měření ve formuláři a jeho právní základ. Není přidáno ani měněno měření. Nepovažovat obecnou informační stránku za náhradu souhlasu s reklamním měřením.
+- Místo a organizace stále mají na landing page předběžný status. Dárkový voucher dosud není předmětem prodeje; vyžaduje samostatná pravidla.
