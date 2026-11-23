@@ -1,87 +1,107 @@
-# Ochrana osobních údajů — workshop první pomoci
+# Jak zacházím s vašimi osobními údaji
 
-> Informace podle čl. 13 a 14 GDPR · Verze 1.0 · Aktualizováno 23. 11. 2026
+> Workshop první pomoci pro rodiče · Verze 1.1 · Aktualizováno 23. 11. 2026
 
-## Kdo údaje zpracovává
+Údaje z objednávky potřebuji, abych vám mohl zajistit místa, přiřadit platbu, poslat e-book a dát vám vědět vše potřebné k workshopu. Tady najdete přehled toho, co používám, kdo mi s tím pomáhá a jaká máte práva.
 
-Správcem je Bc. Marek Luskač, IČO 06726887, sídlo Nová 42, 696 35 Dambořice. S dotazy a žádostmi se obracejte na marekcollabs@gmail.com nebo +420 773 091 903.
+## Kdo za vaše údaje odpovídá
 
-Tento dokument popisuje údaje spojené s návštěvou stránky workshopu, objednávkou, platbou, zasláním materiálů a organizací workshopu první pomoci pro rodiče. Nevytváří souhlas s reklamou a nenahrazuje informace k jiným samostatným produktům nebo službám.
+Jsem Bc. Marek Luskač, IČO **06726887**, se sídlem **Nová 42, 696 35 Dambořice**. Podle GDPR jsem „správce osobních údajů“ — tedy ten, kdo rozhoduje, proč a jak se údaje používají.
 
-## Jaké údaje potřebuji a odkud je mám
+S dotazem nebo žádostí mi napište na **marekcollabs@gmail.com**, případně zavolejte na **+420 773 091 903**.
 
-Z objednávky získávám jméno a příjmení kupujícího, e-mail, telefon, vybraný termín, případné fakturační údaje a údaje o nákupu a úhradě. Uchovávám také nezbytnou komunikaci k objednávce, změně účasti či reklamaci.
+Tato stránka se týká návštěvy stránky workshopu, objednávky, platby, doručení materiálů a organizace kurzu. Informace k jiným samostatným produktům a službám řeším zvlášť. Jde o informace podle článků 13 a 14 GDPR.
 
-E-mail používám k potvrzení objednávky a platby, doručení e-booku a organizačním pokynům. Telefon slouží k nezbytným organizačním změnám, zejména naléhavému oznámení týkajícímu se termínu. Povinné položky formulář označuje; bez potřebných identifikačních a kontaktních údajů nemohu objednávku vyřídit. Volitelné údaje poskytovat nemusíte.
+## Co o vás potřebuji vědět
 
-Při platbě získávám údaje nutné pro přiřazení úhrady, například identifikaci platby, částku, stav a při převodu údaje dostupné z bankovního výpisu. Údaje zadávané do platební brány zpracovává Stripe podle povahy platební služby.
+Z objednávky získávám vaše jméno, příjmení, e-mail, telefon, vybraný termín a případné fakturační údaje. Dále eviduji objednávku, platbu a zprávy, které si v souvislosti s nákupem pošleme.
 
-Jestliže kupující přihlásí někoho jiného nebo uvede náhradníka, získávám nezbytné údaje také od něj. Dotčeného účastníka informuji při prvním kontaktu, nejpozději v příslušné zákonné lhůtě. Kupující by měl účastníkovi tento dokument rovněž zpřístupnit.
+- **E-mail:** pošlu vám potvrzení objednávky a platby, e-book a pokyny k workshopu.
+- **Telefon:** mohu vás rychle kontaktovat při důležité organizační změně.
+- **Údaje o platbě:** potřebuji vědět, co a v jaké výši jste zaplatili. Při převodu vidím také údaje dostupné na bankovním výpisu. Údaje zadané do platební brány zpracovává Stripe.
+- **Technické údaje:** při návštěvě webu se kvůli jeho provozu a zabezpečení zpracovávají například IP adresa, čas požadavku a informace o prohlížeči.
 
-Webové služby při provozu a zabezpečení zpracovávají technické údaje, například IP adresu, čas požadavku a údaje o prohlížeči. Údaje o zdravotním stavu dětí ani rodná čísla pro objednávku nepotřebuji; neuvádějte je do poznámky. Potřebnou úpravu nácviku lze dohodnout bez sdělování diagnózy.
+Povinné údaje poznáte ve formuláři podle označení. Bez údajů potřebných k objednávce a kontaktování nemohu nákup vyřídit. Volitelná pole vyplňovat nemusíte.
 
-## Účely a právní důvody
+Pokud přihlašujete někoho jiného nebo za sebe posíláte náhradníka, mohu jeho nezbytné údaje získat od vás. Prosím, předejte mu i odkaz na tuto stránku. Informace mu poskytnu také já při prvním kontaktu, jinak nejpozději do jednoho měsíce od získání údajů; pokud je potřebuji dříve předat dál, informuji ho už při tomto předání.
 
-| Účel | Právní důvod |
+**Rodná čísla ani údaje o zdraví dětí k objednávce nepotřebuji.** Nepište je do poznámky. Pokud potřebujete upravit nácvik, můžeme se domluvit bez sdělování diagnózy.
+
+## Proč mohu údaje používat
+
+Pro vyřízení nákupu nepotřebuji obecný souhlas „s GDPR“. Údaje používám proto, abych splnil naši smlouvu, dodržel zákonné povinnosti a ochránil své i vaše oprávněné zájmy.
+
+| K čemu údaje používám | Na jakém základě |
 | --- | --- |
-| Vyřízení objednávky kupujícího, úhrada, doručení e-booku a organizačních zpráv | Plnění smlouvy a kroky před uzavřením smlouvy, čl. 6 odst. 1 písm. b) GDPR |
-| Organizace účasti doprovodu či náhradníka, který sám není smluvní stranou | Oprávněný zájem na řádném zajištění objednaného workshopu, čl. 6 odst. 1 písm. f) |
-| Povinná daňová evidence a plnění zákonných povinností, včetně vyřízení spotřebitelské reklamace | Právní povinnost, čl. 6 odst. 1 písm. c) |
-| Doložení objednávky a poskytnuté služby, řešení sporů a ochrana nároků | Oprávněný zájem na ochraně práv, čl. 6 odst. 1 písm. f) |
-| Technický provoz a ochrana před zneužitím | Oprávněný zájem na dostupnosti a zabezpečení služby, čl. 6 odst. 1 písm. f) |
+| Objednávka, platba, doručení e-booku a organizačních zpráv kupujícímu | Plnění smlouvy a příprava nákupu — čl. 6 odst. 1 písm. b) GDPR |
+| Zajištění účasti doprovodu nebo náhradníka, který sám není kupujícím | Oprávněný zájem na řádném uspořádání objednaného workshopu — čl. 6 odst. 1 písm. f) |
+| Daňová evidence a zákonné povinnosti, například při reklamaci | Plnění zákona — čl. 6 odst. 1 písm. c) |
+| Doložení objednávky a poskytnuté služby, řešení případného sporu | Oprávněný zájem na ochraně práv — čl. 6 odst. 1 písm. f) |
+| Fungování a zabezpečení webu | Oprávněný zájem na dostupné a bezpečné službě — čl. 6 odst. 1 písm. f) |
 
-Údaje kupujícího potřebné k objednávce zpracovávám na základě smlouvy a zákona, nikoli na základě obecného souhlasu „s GDPR“.
+## Kdo mi pomáhá s objednávkou a může se k údajům dostat
 
-## Komu mohou být údaje zpřístupněny
+Používám následující služby. Každá dostává údaje potřebné pro svou část práce:
 
-Údaje se zpřístupňují pouze v rozsahu potřebném pro příslušnou činnost. Používané služby jsou:
+- **SimpleShop od společnosti Redbit s.r.o.** zajišťuje objednávkový formulář, evidenci nákupů, doklady, automatické e-maily a přístup k materiálům. Údaje zákazníků zpracovává pro mě. [Více o ochraně údajů v SimpleShopu](https://podpora.redbit.cz/navod/gdpr-a-vyfakturuj-cz-casto-kladene-dotazy/).
+- **Stripe** zajišťuje platbu kartou. Některé údaje používá také pro vlastní zákonné povinnosti a ochranu před podvody. V těchto případech za zpracování odpovídá sám. [Pravidla Stripe](https://stripe.com/privacy).
+- **Komerční banka, a.s.** zajišťuje můj účet a platby převodem. Také banka má vlastní zákonné povinnosti.
+- **Vercel** zajišťuje provoz webu. [Pravidla Vercelu](https://vercel.com/legal/dpa).
+- **Google / Gmail** používám pro komunikaci ze schránky marekcollabs@gmail.com a uchování zpráv. [Pravidla Googlu](https://policies.google.com/privacy?hl=cs).
 
-- **SimpleShop, provozovaný společností Redbit s.r.o.** — objednávkový formulář, evidence objednávek, fakturace, související automatické e-maily a zpřístupnění zakoupených materiálů. Ve vztahu k údajům zákazníků prodejce vystupuje jako zpracovatel. [Informace SimpleShopu](https://podpora.redbit.cz/navod/gdpr-a-vyfakturuj-cz-casto-kladene-dotazy/).
-- **Stripe** — provedení karetních plateb a související zabezpečení. Podle konkrétního účelu vystupují příslušné společnosti skupiny Stripe také jako samostatní správci, například kvůli zákonným povinnostem a prevenci podvodů. [Zásady a kontakty Stripe](https://stripe.com/privacy).
-- **Komerční banka, a.s.** — přijímání plateb převodem a související bankovní služby; banka plní rovněž vlastní zákonné povinnosti.
-- **Vercel** — hosting webu a technický provoz. [Pravidla zpracování Vercel](https://vercel.com/legal/dpa).
-- **Google / Gmail** — organizační komunikace prostřednictvím marekcollabs@gmail.com a její uchování v poštovní schránce. [Zásady Google](https://policies.google.com/privacy?hl=cs).
+Potřebné údaje o účasti může dostat i druhý instruktor. To neznamená automatický přístup ke všem kontaktům a fakturám.
 
-Nezbytné údaje o účasti mohou být zpřístupněny spolupracujícímu instruktorovi. Podle potřeby mohou být příjemci rovněž osoby zajišťující účetní, daňové či právní služby a orgány veřejné moci, pokud to vyžaduje zákon. Instruktor nepotřebuje automaticky přístup k fakturaci a celému seznamu kontaktů.
+Podle potřeby mohou být údaje dostupné také lidem, kteří zajišťují účetní, daňové nebo právní služby. Pokud to ukládá zákon, předávám je příslušným úřadům.
 
-## Předávání mimo Evropský hospodářský prostor
+## Mohou se údaje zpracovávat mimo Evropu?
 
-Služby Google, Stripe a Vercel využívají mezinárodní infrastrukturu a příjemce včetně USA. Zpracování tedy není omezeno pouze na Českou republiku nebo EU.
+Ano. Google, Stripe a Vercel používají služby a infrastrukturu v různých zemích, včetně USA. Nemohu tedy slíbit, že všechny údaje zůstanou jen v Česku nebo EU.
 
-Pro předávání se podle konkrétní služby a příjemce používají rozhodnutí o odpovídající ochraně, včetně rámce EU–US Data Privacy Framework u zapojených certifikovaných subjektů, nebo standardní smluvní doložky Evropské komise a doplňující opatření. Informace o těchto mechanismech a příslušných zárukách poskytují dodavatelé v následujících dokumentech:
+Předávání mimo Evropský hospodářský prostor musí mít odpovídající ochranu. Podle služby a příjemce se používá buď uznaná úroveň ochrany v dané zemi, rámec EU–US Data Privacy Framework u zapojených certifikovaných firem, nebo smluvní záruky schválené Evropskou komisí, takzvané standardní smluvní doložky, spolu s dalšími potřebnými opatřeními.
 
-- [Google — právní rámce pro přenosy dat](https://policies.google.com/privacy/frameworks?hl=cs).
-- [Stripe — ochrana údajů a předávání dat](https://stripe.com/legal/privacy-center).
-- [Vercel — zpracovatelské podmínky včetně mezinárodního předávání](https://vercel.com/legal/dpa).
+Podrobnosti najdete u dodavatelů:
 
-O bližší informace k předání vašich údajů a dostupnou kopii použitelných záruk můžete požádat na kontaktním e-mailu správce.
+- [Google — předávání dat do jiných zemí](https://policies.google.com/privacy/frameworks?hl=cs).
+- [Stripe — ochrana a předávání údajů](https://stripe.com/legal/privacy-center).
+- [Vercel — podmínky zpracování a předávání](https://vercel.com/legal/dpa).
 
-## Jak dlouho údaje uchovávám
+Pokud chcete bližší informace k předání svých údajů nebo dostupnou kopii použitých záruk, napište mi.
 
-Údaje k organizaci uchovávám po dobu vyřízení objednávky, přípravy a uskutečnění workshopu a dořešení navazujících požadavků. Poté zůstávají pouze údaje potřebné pro níže uvedené účely; samotná možnost, že by se někdy mohly hodit, není důvodem k trvalému uchovávání.
+## Jak dlouho údaje potřebuji
 
-Smluvní záznamy a související nezbytnou komunikaci uchovávám zpravidla po dobu tříleté promlčecí lhůty od okamžiku, kdy lze příslušný nárok uplatnit. Pokud probíhá spor nebo nastane důvod k prodloužení či přerušení lhůty, může být doba delší.
+Údaje pro organizaci používám po dobu vyřízení nákupu, přípravy a konání workshopu a dořešení vašich navazujících požadavků. Potom uchovávám jen to, co dál potřebuji z konkrétního důvodu:
 
-Daňové a případné účetní doklady se uchovávají podle druhu evidence a příslušných zákonných lhůt. Rozhodující je konec příslušné archivační povinnosti nebo lhůty pro stanovení daně včetně případného prodloužení; tato povinnost se nevztahuje automaticky na celý obsah korespondence a veškeré údaje účastníků.
+- **Doložení nákupu a řešení nároků:** potřebné záznamy a související zprávy zpravidla po dobu tříleté promlčecí lhůty. Ta běží od chvíle, kdy lze daný nárok uplatnit. Pokud probíhá spor nebo se lhůta podle zákona prodlouží či přeruší, může být doba delší.
+- **Daně a doklady:** po dobu, kterou pro daný typ evidence vyžaduje zákon. Rozhoduje příslušná doba archivace nebo lhůta pro stanovení daně, včetně jejího případného prodloužení. To neznamená, že musím stejně dlouho uchovávat i všechny vaše zprávy a ostatní údaje.
+- **Technické záznamy:** po dobu potřebnou pro provoz, hledání chyb a řešení bezpečnostních problémů podle nastavení služby. Záznam k incidentu nebo sporu může zůstat uložený do jeho vyřešení. Při mazání zohledňuji i nezbytnou dobu přepsání záloh.
 
-Doba uchování technických záznamů se řídí jejich potřebou pro dostupnost, diagnostiku a řešení bezpečnostních událostí a nastavením příslušného dodavatele. Relevantní záznamy mohou být při incidentu nebo uplatnění nároku uchovány do jeho vyřešení. Při posouzení výmazu zohledňuji rovněž nezbytnou dobu obnovy a přepisování záloh.
+## E-maily, fotografie a reklama
 
-## Organizační zprávy, reklama a fotografie
+Zprávy o nákupu, platbě, materiálech nebo změně termínu jsou součástí vyřízení objednávky. Nákupem se automaticky nepřihlašujete k newsletteru.
 
-Nákup workshopu není přihlášením k newsletteru ani souhlasem s použitím fotografií k propagaci. Zprávy o platbě, materiálech, změně termínu a průběhu kurzu slouží k vyřízení nákupu.
+Použití rozpoznatelné fotografie nebo videa z workshopu k propagaci s vámi řeším zvlášť. Když odmítnete, můžete se workshopu účastnit stejně jako ostatní.
 
-Fotografie nebo video rozpoznatelných účastníků pro propagaci řeším samostatně. Odmítnutí takového svolení nemá vliv na možnost účasti.
+Objednávkový formulář a platební služby potřebují technické prostředky pro fungování a zabezpečení nákupu. Nepovinné reklamní cookies a předávání údajů pro reklamní měření se řeší samostatně: potřebují vlastní informace a odpovídající právní důvod. Souhlas s obchodními podmínkami ani tento dokument takové použití nepovolují.
 
-Vložený formulář a platební služby používají technické prostředky potřebné pro objednávku, zabezpečení a úhradu. Tento dokument sám neuděluje souhlas s nepovinnými cookies nebo předáváním údajů pro reklamní měření. Případné reklamní měření vyžaduje samostatné informování a odpovídající právní základ; není kryto souhlasem s obchodními podmínkami.
+## Co můžete požadovat
 
-## Jaká máte práva
+Napište mi na **marekcollabs@gmail.com**, pokud chcete:
 
-Za podmínek GDPR máte právo požadovat přístup ke svým údajům a jejich kopii, opravu, výmaz a omezení zpracování. U automatizovaného zpracování na základě smlouvy nebo souhlasu můžete mít právo na přenositelnost údajů.
+- vědět, jaké vaše údaje používám, a dostat jejich kopii;
+- opravit chybný nebo neaktuální údaj;
+- požádat o smazání údajů nebo omezení jejich používání;
+- získat údaje ve formátu pro předání jinému poskytovateli, pokud jsou splněné podmínky práva na přenositelnost.
 
-Proti zpracování založenému na oprávněném zájmu můžete vznést námitku z důvodů své konkrétní situace. Proti přímému marketingu lze vznést námitku kdykoli; takové použití údajů musí poté skončit. Případný souhlas můžete odvolat, aniž je dotčena zákonnost zpracování před odvoláním.
+Pokud údaje používám na základě oprávněného zájmu, můžete proti tomu vznést námitku a vysvětlit, jak se to dotýká vaší situace. Proti přímému marketingu můžete namítnout kdykoli; takové používání pak ukončím.
 
-Žádosti zasílejte na marekcollabs@gmail.com. Odpovím bez zbytečného odkladu, zpravidla do jednoho měsíce. Pokud zákon umožňuje prodloužení, sdělím vám včas důvody. Při důvodných pochybnostech o totožnosti mohu požádat o přiměřené ověření. Výmaz nelze požadovat pro údaje, které musí být nadále zpracovávány ze zákona nebo pro ochranu právních nároků.
+Pokud jste k nějakému samostatnému účelu dali souhlas, můžete ho odvolat. Používání údajů před odvoláním tím zpětně neztrácí svůj právní základ.
 
-Máte právo podat stížnost u [Úřadu pro ochranu osobních údajů](https://uoou.gov.cz/), Pplk. Sochora 27, 170 00 Praha 7.
+Vaši žádost vyřídím co nejdříve, zpravidla do jednoho měsíce. Pokud mohu podle zákona tuto dobu prodloužit, dám vám včas vědět proč. Při důvodných pochybnostech mohu přiměřeně ověřit, že údaje žádá správná osoba.
 
-V rámci organizace workshopu neprovádím vlastní automatizované rozhodování s právními nebo obdobně významnými účinky. Platební služba může samostatně posuzovat riziko platby podle svých pravidel; její rozhodování popisují informace Stripe.
+Jednotlivá práva mají podmínky dané GDPR. Například nemohu smazat doklad, který ještě musím uchovávat kvůli daním, nebo záznam potřebný pro řešení právního nároku.
+
+Pokud nejste se zacházením s údaji spokojení, můžete podat stížnost k [Úřadu pro ochranu osobních údajů](https://uoou.gov.cz/), Pplk. Sochora 27, 170 00 Praha 7.
+
+## Rozhoduje o vás automaticky nějaký systém?
+
+Při organizaci workshopu nepoužívám vlastní automatické rozhodování, které by mělo právní nebo podobně závažný dopad na vaši situaci. Stripe může samostatně vyhodnocovat riziko platby, například kvůli podvodům. Podrobnosti popisuje ve svých pravidlech.

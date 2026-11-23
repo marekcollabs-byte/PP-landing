@@ -383,3 +383,10 @@ Na Markův pokyn vytvořena stránka s předběžnými termíny 8. a 15. ledna 2
 - Zbývá: vložit URL do SimpleShopu, přiložit zákazníkovi verzi podmínek v trvalé podobě, ověřit tlačítko výslovně zavazující k platbě a proces odstoupení. U prodeje v posledních 14 dnech do kurzu případně samostatná výslovná žádost o zahájení služby.
 - Dokumentace není auditem GDPR provozu. Ověřit smluvní vztahy s dodavateli, účetní/technické retence, případné globální Meta měření ve formuláři a jeho právní základ. Není přidáno ani měněno měření. Nepovažovat obecnou informační stránku za náhradu souhlasu s reklamním měřením.
 - Místo a organizace stále mají na landing page předběžný status. Dárkový voucher dosud není předmětem prodeje; vyžaduje samostatná pravidla.
+
+### Jazyková úprava právních stránek — 2026-11-23
+
+- Marek požádal o přepracování obou textů do přirozené, lidské češtiny, při zachování všech potřebných informací.
+- Obchodní podmínky a ochrana údajů přepsány přímo na existujících URL a ve stejných zdrojových MD souborech, verze 1.1.
+- Kratší věty, přímé oslovení, praktické příklady, čitelné odrážky. Rozlišeno storno před kurzem a odstoupení po uzavření smlouvy; zachována práva, kontakty, refundace, reklamace, dodavatelé, přenosy a uchování údajů.
+- Změna je jazyková a vysvětlující. Schválená cena, termíny, minimální kapacita a pravidla storna se nemění. Nejde o ověření globálního trackingu ani skutečného nastavení retencí.
