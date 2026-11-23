@@ -39,7 +39,7 @@ Tabulka je návrh interního nastavení, ne tvrzení o již zavedeném mazání.
 Údaje v potřebném rozsahu mohou získat:
 
 - Redbit s.r.o., poskytovatel SimpleShopu pro objednávky a fakturaci. Dodavatel uvádí, že ve vztahu k údajům zákazníků prodejce vystupuje jako zpracovatel; [OVĚŘIT aktuální smluvní dokumenty přijaté v účtu a subdodavatele],
-- Stripe pro platby kartou a banka pro platby převodem; použití Stripe i převodu potvrdil Marek 23. 11. 2026. U Stripe se role správce a zpracovatele liší podle účelu služby, zejména provedení platby, prevence podvodů a zákonných povinností; nejde automaticky jen o zpracovatele. Zásady: https://stripe.com/privacy; [DOPLNIT smluvní entitu konkrétního Stripe účtu a banku],
+- Stripe pro platby kartou a Komerční banka, a.s., pro platby převodem; použití Stripe i převodu potvrdil Marek 23. 11. 2026. U Stripe se role správce a zpracovatele liší podle účelu služby, zejména provedení platby, prevence podvodů a zákonných povinností; nejde automaticky jen o zpracovatele. Zásady: https://stripe.com/privacy; [DOPLNIT smluvní entitu konkrétního Stripe účtu],
 - Vercel pro hosting stránky a jeho technické provozní údaje; https://vercel.com/legal; [OVĚŘIT smluvní osobu, retenci logů a aktivní analytické služby],
 - Google pro organizační komunikaci přes Gmail marekcollabs@gmail.com. Zásady: https://policies.google.com/privacy?hl=cs. [OVĚŘIT režim konkrétního účtu a smluvní podmínky; běžný spotřebitelský Gmail nelze bez ověření popsat jako Google Workspace se zpracovatelskou smlouvou],
 - účetní či daňový poradce, pokud je pořadatel používá; [POTVRDIT],
@@ -94,7 +94,7 @@ https://podpora.redbit.cz/navod/obchodni-podminky/
 
 ### Doplnění dodavatelů 23. 11. 2026
 
-Marek potvrdil Stripe, bankovní převod a organizační komunikaci přes marekcollabs@gmail.com. Banku, účetní režim a smluvní konfiguraci účtů dosud neuvedl. Nebyla přidána žádná integrace ani udělen nový přístup.
+Marek potvrdil Stripe, bankovní převod a organizační komunikaci přes marekcollabs@gmail.com. Marek následně potvrdil Komerční banku, a.s., neplátcovství DPH a doručení e-booku ihned po úhradě. Konkrétní účetní evidence a smluvní konfigurace účtů ještě nejsou ověřené. Nebyla přidána žádná integrace ani udělen nový přístup.
 
 Další ověřené primární podklady:
 https://stripe.com/legal/privacy-center
