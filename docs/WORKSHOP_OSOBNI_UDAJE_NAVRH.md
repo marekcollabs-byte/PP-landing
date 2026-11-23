@@ -38,9 +38,10 @@ Tabulka je návrh interního nastavení, ne tvrzení o již zavedeném mazání.
 
 Údaje v potřebném rozsahu mohou získat:
 
-- poskytovatel objednávkového a fakturačního systému SimpleShop; [OVĚŘIT aktuální smluvní právnickou osobu a zpracovatelskou smlouvu],
-- poskytovatel zvolené platební služby a banka; [DOPLNIT skutečnou bránu z účtu],
-- poskytovatel hostingu Vercel a poskytovatel používaného e-mailu; [DOPLNIT smluvní osoby, role a rozsah],
+- Redbit s.r.o., poskytovatel SimpleShopu pro objednávky a fakturaci. Dodavatel uvádí, že ve vztahu k údajům zákazníků prodejce vystupuje jako zpracovatel; [OVĚŘIT aktuální smluvní dokumenty přijaté v účtu a subdodavatele],
+- Stripe pro platby kartou a banka pro platby převodem; použití Stripe i převodu potvrdil Marek 23. 11. 2026. U Stripe se role správce a zpracovatele liší podle účelu služby, zejména provedení platby, prevence podvodů a zákonných povinností; nejde automaticky jen o zpracovatele. Zásady: https://stripe.com/privacy; [DOPLNIT smluvní entitu konkrétního Stripe účtu a banku],
+- Vercel pro hosting stránky a jeho technické provozní údaje; https://vercel.com/legal; [OVĚŘIT smluvní osobu, retenci logů a aktivní analytické služby],
+- Google pro organizační komunikaci přes Gmail marekcollabs@gmail.com. Zásady: https://policies.google.com/privacy?hl=cs. [OVĚŘIT režim konkrétního účtu a smluvní podmínky; běžný spotřebitelský Gmail nelze bez ověření popsat jako Google Workspace se zpracovatelskou smlouvou],
 - účetní či daňový poradce, pokud je pořadatel používá; [POTVRDIT],
 - druhý instruktor v nezbytném rozsahu pro organizaci kurzu, nikoli automaticky s přístupem k celé fakturaci; [UPRAVIT roli a pověření],
 - orgány veřejné moci, vyžaduje-li to zákon.
@@ -49,7 +50,7 @@ Ne každý příjemce je zpracovatelem: platební či jiné regulované služby 
 
 ## 5. Předávání mimo EHP
 
-Před finalizací je třeba ověřit zemi zpracování a subdodavatele SimpleShopu, Vercelu, e-mailové a platební služby. Nelze nyní pravdivě prohlásit, že žádná data neopouštějí EU.
+Používané služby Google, Stripe a Vercel mohou zahrnovat zpracování mimo Evropský hospodářský prostor, zejména v USA. Google ve svém aktuálním přehledu uvádí DPF a smluvní mechanismy; Stripe zveřejňuje pravidla předávání a vlastní Data Transfer Addendum. To samo o sobě ještě nepotvrzuje konkrétní záruky všech služeb v Markových účtech. Před finalizací přiřadit použitelný mechanismus skutečným příjemcům, včetně subdodavatelů SimpleShopu a Vercelu; neuvádět nepravdivě výhradní zpracování v EU.
 
 [DOPLNIT pro skutečné předávání: příjemce / zemi, použitý mechanismus — např. platné rozhodnutí o odpovídající ochraně včetně způsobilosti příjemce, nebo standardní smluvní doložky s potřebnými opatřeními — a způsob získání kopie záruk. Bez ověření neuvádět automaticky Data Privacy Framework.]
 
@@ -90,3 +91,13 @@ https://uoou.gov.cz/profesional/metodiky-a-doporuceni-pro-spravce/metodika-k-pln
 https://eur-lex.europa.eu/legal-content/CS/TXT/?uri=CELEX:32016R0679
 https://podpora.redbit.cz/navod/checkboxy-nastaveni/
 https://podpora.redbit.cz/navod/obchodni-podminky/
+
+### Doplnění dodavatelů 23. 11. 2026
+
+Marek potvrdil Stripe, bankovní převod a organizační komunikaci přes marekcollabs@gmail.com. Banku, účetní režim a smluvní konfiguraci účtů dosud neuvedl. Nebyla přidána žádná integrace ani udělen nový přístup.
+
+Další ověřené primární podklady:
+https://stripe.com/legal/privacy-center
+https://policies.google.com/privacy/frameworks?hl=cs
+https://podpora.redbit.cz/navod/gdpr-a-vyfakturuj-cz-casto-kladene-dotazy/
+https://vercel.com/legal
