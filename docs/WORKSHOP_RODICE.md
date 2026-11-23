@@ -404,3 +404,11 @@ Tento zápis nahrazuje dřívější plán otevřených voucherů bez termínu. 
 - Do produktového potvrzení úhrady doplnit odkazy na dvě PDF; pro tento jednoduchý způsob není nutné vytvářet další bonusový produkt. Doručení e-mailu a ebooku stále čeká na test.
 - Obchodní podmínky doplněny na verzi 1.2 o darování konkrétního termínu. Cena, storno a potvrzení konání beze změny.
 - Stránka zůstává předběžná/noindex. Měření, webhooky a platební nastavení se nemění.
+
+
+### Doručení poukazu pouze po zaplacení — změna 23. 11. 2026
+
+- Na Markův pokyn nahrazeno veřejné stažení doručením odpovídajícího PDF přes SimpleShop po zaplacení. Tento zápis nahrazuje pokyny výše o veřejných odkazech a jejich vložení do potvrzení úhrady.
+- Z landing page odstraněna tlačítka ke stažení, upraven postup darování i FAQ. Dvě PDF odstraněna z veřejné cesty workshop/poukazy/; soubory má Marek nahrát přímo do SimpleShopu a přes košík připojit ke správným termínovým variantám. E-book zůstává připojený.
+- Nastavení a skutečné doručení v SimpleShopu provádí Marek; zatím neověřeno. Před spuštěním zkontrolovat placenou objednávkou správný poukaz, e-book a e-mail. Veřejné prodeje zůstávají ve stavu přípravy.
+- Žádné poukazové kódy, další uplatnění ani změna termínové kapacity. Účast ověřuje zaplacená objednávka.
