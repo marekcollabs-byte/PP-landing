@@ -57,3 +57,13 @@
 @media(max-width:900px){.ws-hero{gap:30px;padding-top:60px}.ws-skills{grid-template-columns:1fr 1fr}.ws-skills article:nth-child(3){border-left:0;border-top:1px solid var(--border)}.ws-skills article:nth-child(4){border-top:1px solid var(--border)}.ws-process,.ws-offer,.ws-location{gap:40px}.ws-checkout{align-items:flex-start;flex-direction:column}.ws-header nav>a:not(.ws-button){display:none}.ws-footer{flex-wrap:wrap}.ws-gift{gap:25px}}
 @media(max-width:640px){.ws-wrap{width:calc(100% - 36px)}.ws-header-inner{min-height:74px;gap:10px}.ws-brand strong{font-size:12px}.ws-brand small{font-size:10px}.ws-brand .logo{width:36px;height:36px;border-radius:12px}.ws-header nav{gap:0}.ws-header .ws-button{font-size:12px;padding:9px 12px}.ws-hero{grid-template-columns:1fr;padding-block:48px;gap:35px}.ws-hero-panel{transform:none;padding:25px}.ws-lead{font-size:16px}.ws-actions{gap:10px}.ws-actions .ws-button{width:100%}.ws-facts-bar .ws-wrap{flex-direction:column;gap:12px;padding-block:20px}.ws-section{padding-block:52px}.ws-skills{grid-template-columns:1fr}.ws-skills article+article{border-left:0;border-top:1px solid var(--border)}.ws-number{margin-bottom:16px}.ws-process,.ws-offer,.ws-location,.ws-teachers,.ws-dates,.ws-gift{grid-template-columns:1fr;gap:28px}.ws-offer-card{padding:25px}.ws-teachers article{gap:16px}.ws-monogram{flex-basis:48px;height:48px;border-radius:14px}.ws-date{padding:20px}.ws-date-label time{font-size:20px}.ws-mode-switch{display:flex}.ws-mode-switch button{flex:1;padding:12px 15px}.ws-checkout{padding:22px}.ws-checkout .ws-button{width:100%}.ws-voucher{padding:26px;min-height:290px}.ws-footer{align-items:flex-start;gap:25px}.ws-footer nav{gap:20px}.ws-footer>p{width:100%}.ws-closing{padding-bottom:50px}}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+
+/* Keep the embedded checkout on its own light surface. SimpleShop owns dates and stock. */
+.ws-checkout-intro{margin-bottom:24px}
+.ws-checkout-intro p:last-child{max-width:65ch}
+.ws-order-form{min-width:0;background:#fff;color:#172033;border-radius:18px;padding:24px 16px;overflow:hidden;color-scheme:light}
+.ws-order-form a{color:#3157c8}
+.ws-order-form iframe{width:100%;max-width:100%;border:0}
+.ws-form-fallback{font-size:14px;margin-top:18px}
+.ws-form-fallback a{color:var(--ws-mint);text-decoration:underline}
+@media(max-width:640px){.ws-order-form{padding:16px 4px;border-radius:12px}}

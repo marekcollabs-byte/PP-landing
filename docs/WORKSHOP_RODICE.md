@@ -325,3 +325,15 @@ Na Markův pokyn vytvořena stránka s předběžnými termíny 8. a 15. ledna 2
 - Nejsou přidávány události Purchase ani změny stávajícího měření.
 - Ověřena syntaxe JS, datum obou pátků, kotvy a unikátní ID; v prohlížeči výběr termínu a přepnutí nabídky na poukaz.
 - Samostatná emulace mobilního viewportu zatím neprovedena; CSS obsahuje responzivní rozložení pro menší šířky.
+
+## 17. Zapojení SimpleShopu — 2026-11-23
+
+- Marek vytvořil produkt 160410, formulář yXEOM: https://form.simpleshop.cz/yXEOM/buy/.
+- Podle dodaného náhledu má dvě varianty: 8. a 15. 1. 2027 od 17:00, každá 10 balíčků pro dvě osoby, cena 1 990 Kč. Nastavení v účtu spravuje Marek.
+- Po diskuzi odstraněna nepodložená přeškrtnutá cena; Marek potvrdil změnu.
+- Připraven text produktového potvrzení úhrady s {items}, {price}, {number}, {inv::link}, {companyMail}. Uložení a skutečný e-mail ověřit testovací objednávkou; {number} označovat jako číslo dokladu.
+- Na Markův pokyn vložen dodaný embed SimpleShopu do /workshop. Odstraněn nezávislý výběr termínů na webu; datum a kapacitu řídí jediný formulář SimpleShopu. Doplněn přímý záložní odkaz.
+- Stránka zůstává noindex, s označením předběžných termínů/místa a přípravy/testování objednávky. Vložený formulář je skutečný a může vytvářet objednávky.
+- Dárkový voucher zatím nemá produkt ani formulář, tlačítko zůstává neaktivní.
+- Nezměněn Pixel, CAPI, webhooky ani děkovací stránka. Před reklamami zbývá ověřit měření workshopu, platbu, e-mail, odečítání skladu a neuhrazené objednávky.
+- Před ostrou propagací potvrdit sál, vybavení, podmínky a vyhradit kapacitu pro poukazy. Pravidla storna nejsou tímto zápisem stanovena.
