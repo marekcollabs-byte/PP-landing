@@ -1,10 +1,10 @@
 # Obchodní podmínky — workshop první pomoci pro rodiče
 
-> PRACOVNÍ NÁVRH z 23. 11. 2026. Není určen k připojení k objednávce před doplněním identifikace, schválením storna a ověřením skutečného procesu. Znění nezakládá spuštění prodeje.
+> PRACOVNÍ NÁVRH z 23. 11. 2026. Není určen k připojení k objednávce před dokončením zbývajících údajů a ověřením skutečného procesu. Znění nezakládá spuštění prodeje.
 
 ## 1. Pořadatel a rozsah
 
-Pořadatelem je Bc. Marek Luskač, podnikající fyzická osoba, IČO [DOPLNIT], se sídlem [DOPLNIT], zápis v živnostenském rejstříku [OVĚŘIT], e-mail [DOPLNIT], telefon [DOPLNIT]. Tyto kontakty slouží i pro odstoupení a reklamace.
+Pořadatelem je Bc. Marek Luskač, podnikající fyzická osoba, IČO 06726887, se sídlem Nová 42, 696 35 Dambořice, zápis v živnostenském rejstříku [OVĚŘIT], e-mail marekcollabs@gmail.com, telefon +420 773 091 903. Tyto kontakty slouží i pro odstoupení a reklamace.
 
 Podmínky upravují nákup prezenčního workshopu první pomoci pro rodiče přes prvnipomoc.eu a SimpleShop. Jeden balíček opravňuje k účasti až dvě dospělé osoby. Kupující může určit jiného účastníka a jeho doprovod.
 
@@ -48,17 +48,17 @@ Má-li workshop proběhnout před koncem lhůty, musí být předem zajištěna 
 
 Návrh se nespoléhá na výjimku pro volnočasové služby na konkrétní datum; použitelnost na tento vzdělávací kurz nebyla právně posouzena.
 
-## 6. Dobrovolné storno a změny — NAVRŽENO, ČEKÁ NA MARKA
+## 6. Dobrovolné storno a změny
 
 Následující pravidla platí vedle zákonných práv a nikdy je neomezují:
 
-- Při zrušení nejméně 7 dní před začátkem vrátí pořadatel celou cenu.
+- Při zrušení nejméně 14 dní (336 hodin) před začátkem vrátí pořadatel celou cenu.
 - Při pozdějším zrušení nebo nedostavení se cena nevrací, ledaže vyplývá jiný nárok ze zákona.
 - Kupující může bez poplatku poslat náhradníka pro celý balíček nebo jedno místo; změnu oznámí před zahájením e-mailem.
 - Přesun na jiný termín je možný po individuální dohodě podle dostupnosti.
 - Případná vratka z dobrovolného storna bude vyřízena do 14 dnů.
 
-[ROZHODNUTÍ: potvrdit pravidla nebo upravit; nejde o již přijaté podmínky.]
+Tato pravidla schválil pořadatel dne 23. 11. 2026. Lhůta se vztahuje k začátku konkrétního workshopu a odlišuje se od zákonné lhůty pro odstoupení běžící od uzavření smlouvy.
 
 ## 7. Zrušení či změna ze strany pořadatele
 
@@ -84,7 +84,7 @@ Informace o osobních údajích jsou v samostatném dokumentu. Nákup není podm
 
 ## 10. Vzor odstoupení
 
-Adresát: Bc. Marek Luskač, [sídlo], [e-mail].
+Adresát: Bc. Marek Luskač, Nová 42, 696 35 Dambořice, marekcollabs@gmail.com.
 
 Oznamuji odstoupení od smlouvy o účasti na workshopu první pomoci pro rodiče.
 Datum objednávky:
@@ -98,8 +98,9 @@ Podpis (jen při zaslání na papíře):
 
 ## Redakční poznámky před publikací
 
-- Doplnit identifikaci, splatnost/expiraci, minimum a datum potvrzení konání, dodání e-booku.
-- Schválit storno a sladit nabídku, FAQ, e-maily a SimpleShop. Konkrétní cena a termíny mají být potvrzené.
+- Identifikace a kontakty doplněny podle Marka 23. 11. 2026; PSČ doplněno podle veřejného výpisu. Ověřit zápis v rejstříku.
+- Doplnit splatnost/expiraci, minimum a datum potvrzení konání, dodání e-booku.
+- Storno schváleno Markem: bezplatně alespoň 14 dní předem, později náhradník. Sladit nabídku, FAQ, e-maily a SimpleShop. Konkrétní cena a termíny mají být potvrzené.
 - Nahrát finální podmínky jako produktový dokument pro přiložení k e-mailu; neměnit globální podmínky e-booku.
 - Předpokládaná stránka /workshop/obchodni-podminky; dokud návrh není dokončený, odkaz ještě neexistuje.
 - Zkontrolovat spotřebitelské náležitosti včetně označení platebního tlačítka a podmínek pro digitální obsah.

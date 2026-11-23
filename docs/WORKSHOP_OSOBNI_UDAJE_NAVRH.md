@@ -4,7 +4,7 @@
 
 ## 1. Správce a kontakt
 
-Správcem je Bc. Marek Luskač, IČO [DOPLNIT], sídlo [DOPLNIT], e-mail pro ochranu údajů [DOPLNIT], telefon [DOPLNIT]. Informace se týkají nákupu, organizace a účasti na workshopu první pomoci pro rodiče na prvnipomoc.eu/workshop.
+Správcem je Bc. Marek Luskač, IČO 06726887, sídlo Nová 42, 696 35 Dambořice, e-mail pro ochranu údajů marekcollabs@gmail.com, telefon +420 773 091 903. Informace se týkají nákupu, organizace a účasti na workshopu první pomoci pro rodiče na prvnipomoc.eu/workshop.
 
 [TOTO NENÍ celowebová politika e-booku nebo firemních poptávek. Předpokládaná stránka /workshop/ochrana-osobnich-udaju.]
 
@@ -71,7 +71,7 @@ Proti zpracování na základě oprávněného zájmu můžete vznést námitku 
 
 Pokud zpracování stojí na souhlasu, lze jej odvolat; tím není dotčena zákonnost před odvoláním. Výmaz ani odvolání souhlasu neodstraňuje povinnosti uchovávat zákonem vyžadované doklady.
 
-Žádosti posílejte na [DOPLNIT e-mail]. Vyřídíme je bez zbytečného odkladu, zpravidla do jednoho měsíce. Případné zákonné prodloužení s důvody oznámíme včas; při pochybnostech o totožnosti požádáme jen o přiměřené ověření.
+Žádosti posílejte na marekcollabs@gmail.com. Vyřídíme je bez zbytečného odkladu, zpravidla do jednoho měsíce. Případné zákonné prodloužení s důvody oznámíme včas; při pochybnostech o totožnosti požádáme jen o přiměřené ověření.
 
 Máte právo podat stížnost Úřadu pro ochranu osobních údajů, Pplk. Sochora 27, 170 00 Praha 7, https://uoou.gov.cz/.
 

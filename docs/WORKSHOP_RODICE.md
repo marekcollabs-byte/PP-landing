@@ -1,7 +1,7 @@
 # Workshop první pomoci pro rodiče
 
 > Průběžný pracovní dokument pro Marka Luskače a navazující práci v repozitáři.
-> Poslední aktualizace: 2026-11-01 (Europe/Prague).
+> Poslední aktualizace: 2026-11-23 (Europe/Prague).
 > Stav: příprava nabídky a ekonomiky; prodej ani rezervace prostoru zatím nejsou potvrzené.
 > Soubor v repozitáři: docs/WORKSHOP_RODICE.md (marekcollabs-byte/PP-landing).
 > Plánovaná stránka: https://www.prvnipomoc.eu/workshop
@@ -342,7 +342,8 @@ Na Markův pokyn vytvořena stránka s předběžnými termíny 8. a 15. ledna 2
 
 - Na Markův požadavek připraveny docs/WORKSHOP_OBCHODNI_PODMINKY_NAVRH.md a docs/WORKSHOP_OSOBNI_UDAJE_NAVRH.md.
 - Jde o označené pracovní návrhy, nikoli hotové podmínky připojené k objednávce. Veřejné právní stránky ani odkazy SimpleShopu zatím nebyly vytvořeny.
-- Chybí IČO, sídlo a potvrzení kontaktních údajů. Marek byl dotázán také na navržené dobrovolné storno (7 dní zdarma, později náhradník).
+- Identifikace a kontakty doplněny Markem 23. 11. 2026: IČO 06726887; Nová 42, 696 35 Dambořice; marekcollabs@gmail.com; +420 773 091 903. PSČ doplněno z veřejného výpisu.
+- Marek schválil bezplatné storno nejméně 14 dní před termínem (nikoli původní návrh 7 dní). Později bez vrácení ceny s možností náhradníka; zákonné nároky nedotčeny. Při zrušení pořadatelem celá cena zpět. Minimum a nejzazší potvrzení konání dosud neurčil.
 - Návrh zachovává 14denní spotřebitelské odstoupení; nepředpokládá bez právního ověření automatickou výjimku pro volnočasové akce.
 - Pro dokončení zjistit minimum účastníků a termín potvrzení konání, platební expiraci, doručení e-booku a skutečné zpracovatele / retence / předání mimo EHP. Ověřit globální měření formuláře a označení platebního tlačítka.
 - V SimpleShopu navrženo nahradit obecný povinný souhlas s GDPR informačním textem s odkazem; souhlas s podmínkami ponechat samostatně a zajistit zákazníkovi jejich trvalou kopii.
