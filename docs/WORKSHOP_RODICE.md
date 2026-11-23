@@ -343,8 +343,17 @@ Na Markův pokyn vytvořena stránka s předběžnými termíny 8. a 15. ledna 2
 - Na Markův požadavek připraveny docs/WORKSHOP_OBCHODNI_PODMINKY_NAVRH.md a docs/WORKSHOP_OSOBNI_UDAJE_NAVRH.md.
 - Jde o označené pracovní návrhy, nikoli hotové podmínky připojené k objednávce. Veřejné právní stránky ani odkazy SimpleShopu zatím nebyly vytvořeny.
 - Identifikace a kontakty doplněny Markem 23. 11. 2026: IČO 06726887; Nová 42, 696 35 Dambořice; marekcollabs@gmail.com; +420 773 091 903. PSČ doplněno z veřejného výpisu.
-- Marek schválil bezplatné storno nejméně 14 dní před termínem (nikoli původní návrh 7 dní). Později bez vrácení ceny s možností náhradníka; zákonné nároky nedotčeny. Při zrušení pořadatelem celá cena zpět. Minimum a nejzazší potvrzení konání dosud neurčil.
+- Marek schválil bezplatné storno nejméně 14 dní před termínem (nikoli původní návrh 7 dní). Později bez vrácení ceny s možností náhradníka; zákonné nároky nedotčeny. Při zrušení pořadatelem celá cena zpět. Minimum a nejzazší potvrzení konání následně schválil: viz níže.
 - Návrh zachovává 14denní spotřebitelské odstoupení; nepředpokládá bez právního ověření automatickou výjimku pro volnočasové akce.
 - Pro dokončení zjistit minimum účastníků a termín potvrzení konání, platební expiraci, doručení e-booku a skutečné zpracovatele / retence / předání mimo EHP. Ověřit globální měření formuláře a označení platebního tlačítka.
 - V SimpleShopu navrženo nahradit obecný povinný souhlas s GDPR informačním textem s odkazem; souhlas s podmínkami ponechat samostatně a zajistit zákazníkovi jejich trvalou kopii.
 - Voucher bude vyžadovat další pravidla; nynější návrh upravuje přímý nákup konkrétního termínu.
+
+### Schválené minimum a potvrzení konání — 2026-11-23
+
+- Minimum: 6 plně zaplacených balíčků pro dvojice na termín.
+- Potvrzení konání nebo zrušení nejpozději 7 dní (168 hodin) před začátkem.
+- Termín 8. 1. 2027 v 17:00: rozhodnutí do 1. 1. 2027 v 17:00; termín 15. 1. 2027 v 17:00: do 8. 1. 2027 v 17:00 (Europe/Prague).
+- Při zrušení pořadatelem vrátit celou uhrazenou cenu do 14 dnů; náhradní termín jen dobrovolně.
+- Doplněno do návrhu obchodních podmínek. Před ostrým spuštěním uvést i v nabídce/FAQ a potvrzovacím e-mailu; dosavadní text o rezervaci nesmí budit dojem již potvrzeného konání.
+- Částka za figuríny zatím není potvrzená; schválené provozní minimum není ověřením ziskovosti.
