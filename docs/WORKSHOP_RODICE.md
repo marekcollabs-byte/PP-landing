@@ -357,3 +357,10 @@ Na Markův pokyn vytvořena stránka s předběžnými termíny 8. a 15. ledna 2
 - Při zrušení pořadatelem vrátit celou uhrazenou cenu do 14 dnů; náhradní termín jen dobrovolně.
 - Doplněno do návrhu obchodních podmínek. Před ostrým spuštěním uvést i v nabídce/FAQ a potvrzovacím e-mailu; dosavadní text o rezervaci nesmí budit dojem již potvrzeného konání.
 - Částka za figuríny zatím není potvrzená; schválené provozní minimum není ověřením ziskovosti.
+
+### Potvrzené služby 2026-11-23
+
+- Platby kartou přes Stripe, alternativně bankovním převodem; konkrétní banka zatím neurčena v dokumentaci.
+- Organizační zprávy z marekcollabs@gmail.com přes Gmail.
+- Doplněno do návrhu ochrany osobních údajů, oddělené role Stripe a upozornění na neověřený smluvní režim běžného Gmailu. Nepředpokládat automaticky Google Workspace DPA.
+- Finální veřejné právní stránky stále nejsou vydané; chybějící údaje a skutečnou konfiguraci dokončit před připojením k objednávce.
