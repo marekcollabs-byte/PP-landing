@@ -67,3 +67,7 @@
 .ws-form-fallback{font-size:14px;margin-top:18px}
 .ws-form-fallback a{color:var(--ws-mint);text-decoration:underline}
 @media(max-width:640px){.ws-order-form{padding:16px 4px;border-radius:12px}}
+
+
+.ws-gift-downloads{margin-top:32px;padding:26px;border:1px solid var(--border);border-radius:18px;background:var(--surface)}
+.ws-gift-downloads h3{font-size:22px;margin-bottom:12px}.ws-gift-downloads p{max-width:75ch;font-size:14px}.ws-gift-downloads .ws-actions{margin-block:20px}.ws-gift-downloads .ws-quiet{font-size:13px}

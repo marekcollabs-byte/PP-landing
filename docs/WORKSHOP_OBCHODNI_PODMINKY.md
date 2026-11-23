@@ -1,6 +1,6 @@
 # Obchodní podmínky workshopu
 
-> Platné od 23. 11. 2026 · Verze 1.1 · Workshop první pomoci pro rodiče
+> Platné od 23. 11. 2026 · Verze 1.2 · Workshop první pomoci pro rodiče
 
 ## Kdo workshop pořádá
 
@@ -24,6 +24,14 @@ Workshop trvá přibližně tři hodiny. Procvičíte si hlavně pomoc při duš
 V ceně je i e-book První pomoc u dětí pro vaše osobní použití. Odkaz ke stažení vám přijde na e-mail z objednávky hned poté, co SimpleShop zaznamená platbu. Jde o PDF, které otevřete na telefonu nebo počítači v běžném PDF prohlížeči. Ke stažení potřebujete internet. Pokud odkaz nepřijde nebo nefunguje, napište mi.
 
 Cena je konečná, bez dalších povinných poplatků. Nejsem plátce DPH.
+
+## Když workshop kupujete jako dárek
+
+Při nákupu vyberete konkrétní termín. Dárkový poukaz v PDF je jen k předání už zakoupené účasti až pro dvě dospělé osoby. Není to samostatný poukaz na peníze ani možnost vybrat si termín později. Samotné stažení nebo vytištění PDF nerezervuje místo; účast ověřím podle zaplacené objednávky.
+
+Jméno hlavního účastníka můžete uvést při objednávce, pokud je pole k dispozici, nebo mi ho později poslat e-mailem s číslem dokladu. Druhého účastníka nemusíte hlásit předem. Potvrzení a organizační pokyny posílám kupujícímu; přímé kontaktování obdarovaného domluvíme zvlášť. Kupující mu předá i potřebné pokyny a odkaz na informace o zpracování osobních údajů.
+
+Pro dárek platí stejná pravidla potvrzení konání, storna a změny účastníků jako pro ostatní objednávky. Pokud vznikne nárok na vrácení ceny, vracím peníze kupujícímu podle těchto podmínek.
 
 ## Jak funguje objednávka a platba
 
@@ -122,3 +130,4 @@ Oznamuji, že odstupuji od smlouvy o účasti na workshopu první pomoci pro rod
 - Číslo dokladu nebo jiný údaj pro dohledání nákupu, pokud ho máte:
 - Datum odeslání:
 - Podpis, pokud zprávu posíláte na papíře:
+

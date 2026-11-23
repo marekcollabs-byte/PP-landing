@@ -390,3 +390,17 @@ Na Markův pokyn vytvořena stránka s předběžnými termíny 8. a 15. ledna 2
 - Obchodní podmínky a ochrana údajů přepsány přímo na existujících URL a ve stejných zdrojových MD souborech, verze 1.1.
 - Kratší věty, přímé oslovení, praktické příklady, čitelné odrážky. Rozlišeno storno před kurzem a odstoupení po uzavření smlouvy; zachována práva, kontakty, refundace, reklamace, dodavatelé, přenosy a uchování údajů.
 - Změna je jazyková a vysvětlující. Schválená cena, termíny, minimální kapacita a pravidla storna se nemění. Nejde o ověření globálního trackingu ani skutečného nastavení retencí.
+
+
+
+## 20. Zjednodušení dárků — schváleno 23. 11. 2026
+
+Tento zápis nahrazuje dřívější plán otevřených voucherů bez termínu. Prodávají se pouze stávající dvě termínové varianty za 1 990 Kč pro dvě osoby. Žádný nový voucherový produkt, kupón, další uplatnění ani oddělená kvóta. Kapacitu řídí stávající objednávka termínu.
+
+- Režim Chci darovat vede do stejného formuláře. Dvě veřejně dostupná PDF jsou jen tiskový obal zakoupené účasti, bez ceny a bez automatického personalizování. Obsahují pevný termín, prostor pro obdarovaného a číslo dokladu, upozornění na nutnost zaplacené objednávky a podmíněné konání.
+- PDF jsou v workshop/poukazy/. Zdroj generátoru je scripts/generate-workshop-gifts.py.
+- Údaje hlavního účastníka lze dodat e-mailem s číslem dokladu. Volitelné pole Jméno a příjmení hlavního účastníka v SimpleShopu má nastavit Marek; není zatím nastavené ani ověřené. Druhá osoba nemusí být předem jmenovaná.
+- Kupujícímu chodí organizační e-maily. Přímý kontakt obdarovaného jen po domluvě; povinnost informovat o osobních údajích dle zveřejněné stránky zůstává zachovaná.
+- Do produktového potvrzení úhrady doplnit odkazy na dvě PDF; pro tento jednoduchý způsob není nutné vytvářet další bonusový produkt. Doručení e-mailu a ebooku stále čeká na test.
+- Obchodní podmínky doplněny na verzi 1.2 o darování konkrétního termínu. Cena, storno a potvrzení konání beze změny.
+- Stránka zůstává předběžná/noindex. Měření, webhooky a platební nastavení se nemění.
