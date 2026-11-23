@@ -64,7 +64,7 @@ Tato pravidla schválil pořadatel dne 23. 11. 2026. Lhůta se vztahuje k začá
 
 Pokud pořadatel workshop zruší nebo navrhne podstatnou změnu data či místa, oznámí to bez zbytečného odkladu. Kupující může přijmout náhradní nabídku, nebo požadovat celou uhrazenou cenu zpět; vratka do 14 dnů. Náhradní termín ani poukaz nesmí být vnucen místo peněz.
 
-Má-li být konání podmíněno minimální obsazeností, musí nabídka před nákupem obsahovat konkrétní minimum a nejzazší den potvrzení konání. [DOPLNIT; obecné „pokud se naplní“ nestačí.] Návrh nevylučuje případné další zákonné nároky zákazníka.
+Konání workshopu je podmíněno minimálně 6 plně zaplacenými balíčky pro dvojice. Pořadatel oznámí potvrzení konání, nebo zrušení pro nedostatečné naplnění nejpozději 7 dní (168 hodin) před začátkem. Pro termín 8. 1. 2027 v 17:00 je rozhodným okamžikem 1. 1. 2027 v 17:00; pro termín 15. 1. 2027 v 17:00 jde o 8. 1. 2027 v 17:00 (český čas). Při zrušení bude kupujícímu vrácena celá uhrazená cena do 14 dnů; náhradní termín lze přijmout dobrovolně. Podmínka minimální obsazenosti a lhůta potvrzení musí být uvedeny také v nabídce před odesláním objednávky. Tato ustanovení nevylučují další zákonné nároky zákazníka.
 
 ## 8. Reklamace a odpovědnost
 
@@ -99,7 +99,7 @@ Podpis (jen při zaslání na papíře):
 ## Redakční poznámky před publikací
 
 - Identifikace a kontakty doplněny podle Marka 23. 11. 2026; PSČ doplněno podle veřejného výpisu. Ověřit zápis v rejstříku.
-- Doplnit splatnost/expiraci, minimum a datum potvrzení konání, dodání e-booku.
+- Doplnit splatnost/expiraci, dodání e-booku. Minimum 6 zaplacených dvojic a potvrzení 7 dní předem schválil Marek 23. 11. 2026.
 - Storno schváleno Markem: bezplatně alespoň 14 dní předem, později náhradník. Sladit nabídku, FAQ, e-maily a SimpleShop. Konkrétní cena a termíny mají být potvrzené.
 - Nahrát finální podmínky jako produktový dokument pro přiložení k e-mailu; neměnit globální podmínky e-booku.
 - Předpokládaná stránka /workshop/obchodni-podminky; dokud návrh není dokončený, odkaz ještě neexistuje.
